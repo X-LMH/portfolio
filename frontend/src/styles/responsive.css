@@ -202,7 +202,6 @@ dialog {
     right: 24px;
     bottom: 25px;
     gap: 14px;
-    font-size: 9px;
   }
   .home-footer > span {
     max-width: 48%;

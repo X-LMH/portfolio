@@ -1,23 +1,25 @@
 html {
-  --bg: #fcfaf9;
-  --card: #fffdfd;
-  --ink: #443d4c;
-  --text: #796d7e;
-  --muted: #9d8fa4;
-  --line: #eae1eb;
-  --block: #f3edf5;
-  --accent: #a483b4;
+  --bg: #fff7f9;
+  --card: #fffcfd;
+  --ink: #49373e;
+  --text: #795d68;
+  --muted: #85616f;
+  --line: #eddae2;
+  --block: #fff1f5;
+  --accent: #a95473;
+  --accent-purple: #80638f;
 }
 
 html[data-color="dark"] {
   --bg: #24232d;
   --card: #2e2b38;
-  --ink: #eee5f2;
-  --text: #bfb2c8;
-  --muted: #9e8eaa;
+  --ink: #eeeaf2;
+  --text: #c3bac9;
+  --muted: #a99caf;
   --line: #48404f;
   --block: #342e40;
-  --accent: #c9a9db;
+  --accent: #c7a2b3;
+  --accent-purple: #bba5cd;
 }
 
 .site-header {
@@ -29,18 +31,47 @@ html[data-color="dark"] {
 }
 
 .avatar {
-  background: linear-gradient(140deg, #f6e8ea, #eae5f6);
-  box-shadow:
-    0 0 0 1px #dec5e4,
-    0 10px 35px #a88baa17;
+  --avatar-outline-color: #dec5e4;
+  box-shadow: 0 10px 35px #a88baa17;
   color: #9b85a5;
+}
+.avatar-artwork {
+  position: absolute;
+  inset: -6px;
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  overflow: visible;
+  pointer-events: none;
+}
+.avatar-outline {
+  /* Keep the original outer edge, with softer coverage on low-density screens. */
+  r: calc(50% - 0.75px);
+  fill: var(--bg);
+  stroke: var(--avatar-outline-color);
+  stroke-width: 1.5px;
+  stroke-opacity: 0.75;
+}
+.avatar-fill {
+  r: calc(50% - 6px);
+}
+.avatar-fill-start {
+  stop-color: #f6e8ea;
+}
+.avatar-fill-end {
+  stop-color: #eae5f6;
+}
+html[data-color="dark"] .avatar-fill-start {
+  stop-color: #4c3e50;
+}
+html[data-color="dark"] .avatar-fill-end {
+  stop-color: #403c55;
 }
 .avatar:after {
   content: "✧";
   position: absolute;
   top: 10px;
   right: -15px;
-  color: var(--accent);
+  color: #a483b4;
   font-size: 23px;
 }
 .avatar-dot {
@@ -59,7 +90,7 @@ html[data-color="dark"] {
   border-radius: 15px;
   border: 1px solid #ffffffdc;
   background: #ffffff88;
-  box-shadow: 0 5px 18px #a68bac0e;
+  box-shadow: 0 5px 18px #a954730e;
   backdrop-filter: blur(15px);
 }
 .small-entrances svg {
@@ -69,20 +100,27 @@ html[data-color="dark"] {
 }
 
 html[data-color="dark"] .avatar {
-  background: linear-gradient(140deg, #4c3e50, #403c55);
+  --avatar-outline-color: #76607f;
   color: #d7bee5;
-  box-shadow: 0 0 0 1px #76607f;
+  box-shadow: none;
+}
+html[data-color="dark"] .avatar:after {
+  color: var(--accent-purple);
+}
+html[data-color="dark"] .avatar-dot {
+  background: var(--accent-purple);
 }
 html[data-color="dark"] .small-entrances > a,
 html[data-color="dark"] .small-entrances > button {
   background: #ffffff09;
   border-color: #ffffff1c;
+  box-shadow: 0 5px 18px #00000014;
 }
 
 .ag-frost {
   background: color-mix(in srgb, var(--card) 68%, transparent);
   border: 1px solid color-mix(in srgb, var(--card) 80%, var(--line));
-  box-shadow: 0 7px 25px #9a7fa50b;
+  box-shadow: 0 7px 25px #a954730b;
   backdrop-filter: blur(18px);
 }
 
@@ -104,7 +142,7 @@ html[data-color="dark"] .small-entrances > button {
   letter-spacing: 1px;
 }
 .ag-heading h2 > span {
-  color: var(--accent);
+  color: var(--accent-purple);
 }
 .ag-heading > p {
   position: absolute;
@@ -207,7 +245,7 @@ html[data-color="dark"] .small-entrances > button {
 
 .ag-moments {
   background:
-    radial-gradient(ellipse at 24% 40%, #e9dced28, transparent 58%), var(--bg);
+    radial-gradient(ellipse at 24% 40%, color-mix(in srgb, var(--accent-purple) 6%, transparent), transparent 58%), var(--bg);
 }
 .ag-timeline {
   display: grid;
@@ -256,7 +294,7 @@ html[data-color="dark"] .small-entrances > button {
   display: block;
   font-size: 20px;
   margin: 28px 0 0 20px;
-  color: var(--accent);
+  color: var(--accent-purple);
 }
 
 .ag-letter {
@@ -345,10 +383,10 @@ html[data-color="dark"] .small-entrances > button {
   padding: 32px 42px;
   background: color-mix(in srgb, var(--card) 95%, transparent);
   backdrop-filter: blur(22px);
-  box-shadow: 0 25px 90px #6e477b26;
+  box-shadow: 0 25px 90px #89465f26;
 }
 #entry-reader::backdrop {
-  background: #4f3d5940;
+  background: #59333f40;
   backdrop-filter: blur(8px);
 }
 #entry-title {
@@ -359,10 +397,64 @@ html[data-color="dark"] .small-entrances > button {
 }
 html .ps-dialog {
   border-radius: 22px;
+  box-shadow: 0 25px 90px #89465f26;
+}
+html .ps-dialog::backdrop {
+  background: #59333f70;
+}
+html ::selection {
+  background: var(--block);
+  color: var(--ink);
+}
+html .page-dots > a {
+  border-color: var(--muted);
+}
+html .page-dots > a[aria-current="true"] {
+  border-color: var(--accent);
+}
+html .ps-text-button {
+  border-bottom-color: var(--line);
+}
+html .ps-toast {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--line);
+}
+html .ps-dialog button:focus-visible,
+html .ps-dialog input:focus-visible,
+html .ps-dialog textarea:focus-visible {
+  outline-color: var(--accent);
 }
 html .ps-form-grid input,
 html .ps-form-grid textarea {
   border-radius: 8px;
+}
+
+/* Keep large dark surfaces neutral, with a faint purple glow. */
+html[data-color="dark"] .ag-moments {
+  background:
+    radial-gradient(ellipse at 24% 40%, color-mix(in srgb, var(--accent-purple) 4%, transparent), transparent 58%), var(--bg);
+}
+html[data-color="dark"] .ag-frost {
+  box-shadow: 0 7px 25px #00000018;
+}
+html[data-color="dark"] .ag-short-reads article:focus-within {
+  box-shadow: 0 10px 28px #00000030;
+}
+@media (hover: hover) and (pointer: fine) {
+  html[data-color="dark"] .ag-short-reads article:hover {
+    box-shadow: 0 10px 28px #00000030;
+  }
+}
+html[data-color="dark"] #entry-reader,
+html[data-color="dark"] .ps-dialog {
+  box-shadow: 0 25px 90px #00000040;
+}
+html[data-color="dark"] #entry-reader::backdrop {
+  background: #19182066;
+}
+html[data-color="dark"] .ps-dialog::backdrop {
+  background: #19182080;
 }
 
 @media (max-height: 790px) {
