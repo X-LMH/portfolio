@@ -1,0 +1,455 @@
+/* Animate the inherited palette once, including gradients and glass color-mixes. */
+@property --bg {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #fff7f9;
+}
+@property --card {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #fffcfd;
+}
+@property --ink {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #49373e;
+}
+@property --text {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #795d68;
+}
+@property --muted {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #85616f;
+}
+@property --line {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #eddae2;
+}
+@property --block {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #fff1f5;
+}
+@property --accent {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #a95473;
+}
+@property --accent-purple {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #80638f;
+}
+
+html {
+  --font-ui: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", system-ui, sans-serif;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+html[data-theme-motion] {
+  transition:
+    --bg 350ms ease,
+    --card 350ms ease,
+    --ink 350ms ease,
+    --text 350ms ease,
+    --muted 350ms ease,
+    --line 350ms ease,
+    --block 350ms ease,
+    --accent 350ms ease,
+    --accent-purple 350ms ease;
+}
+
+.home-footer,
+.scroll-cue,
+.eyebrow,
+.ag-meta,
+.ag-heading > p,
+.ag-timeline time,
+.reader-top,
+.reader-bottom,
+.example-note,
+.ps-dialog small {
+  font-family: var(--font-ui);
+  font-weight: 400;
+}
+.eyebrow,
+.ag-meta,
+.reader-top,
+.reader-bottom {
+  font-size: 11px;
+}
+
+.avatar > span:first-child {
+  position: relative;
+  z-index: 1;
+}
+html[data-theme-motion] .avatar {
+  transition: color 350ms ease, box-shadow 350ms ease;
+}
+html[data-theme-motion] .avatar-outline {
+  transition: stroke 350ms ease;
+}
+html[data-theme-motion] .avatar-fill-start,
+html[data-theme-motion] .avatar-fill-end {
+  transition: stop-color 350ms ease;
+}
+html[data-theme-motion] .avatar:after {
+  transition: color 350ms ease;
+}
+html[data-theme-motion] .avatar-dot {
+  transition: background-color 350ms ease;
+}
+
+/* No pending attribute means fully visible, including the no-observer fallback. */
+[data-reveal-step="1"] {
+  --reveal-delay: 60ms;
+}
+[data-reveal-step="2"] {
+  --reveal-delay: 120ms;
+}
+[data-reveal-step="3"] {
+  --reveal-delay: 180ms;
+}
+[data-reveal-state="pending"] {
+  opacity: 0;
+  translate: 0 8px;
+}
+[data-reveal-state="visible"] {
+  animation: site-reveal 400ms var(--motion-ease) var(--reveal-delay, 0ms) backwards;
+}
+@keyframes site-reveal {
+  from {
+    opacity: 0;
+    translate: 0 8px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+/* Slide upward and ease directly into place without overshooting. */
+[data-reveal-state="section"] {
+  animation: site-section-enter 600ms cubic-bezier(0.22, 0.75, 0.25, 1) var(--reveal-delay, 0ms) backwards;
+}
+@keyframes site-section-enter {
+  0% {
+    opacity: 0;
+    translate: 0 36px;
+  }
+  100% {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.site-header nav > a::after {
+  transition: transform 180ms var(--motion-ease);
+}
+.site-header nav > a,
+.site-name,
+.ag-feature-title,
+.ag-short-reads button,
+.ag-contact-bar button,
+.reader-top button,
+.reader-bottom button,
+.ps-close,
+.ps-text-button {
+  transition: color 180ms ease, translate 180ms var(--motion-ease);
+}
+.page-dots > a {
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    transform 180ms var(--motion-ease);
+}
+.page-dots > a[aria-current="true"] {
+  transform: scale(1.12);
+}
+.page-dots > a > span {
+  transition: opacity 180ms ease;
+}
+#color-toggle {
+  transition: translate 180ms var(--motion-ease);
+}
+#color-toggle svg {
+  transition: stroke 180ms ease;
+}
+.theme-icon {
+  grid-area: 1 / 1;
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+.theme-icon-enter-active,
+.theme-icon-leave-active {
+  transition: opacity 220ms ease, transform 220ms var(--motion-ease);
+}
+.theme-icon-enter-from {
+  opacity: 0;
+  transform: rotate(25deg);
+}
+.theme-icon-leave-to {
+  opacity: 0;
+  transform: rotate(-25deg);
+}
+
+.ag-timeline {
+  --rule-start-scale: 0 1;
+}
+.ag-timeline::before {
+  transform-origin: left top;
+  pointer-events: none;
+}
+.ag-timeline[data-rule-state="pending"]::before {
+  scale: var(--rule-start-scale);
+}
+.ag-timeline[data-rule-state="visible"]::before {
+  animation: timeline-draw 650ms var(--motion-ease) backwards;
+}
+@keyframes timeline-draw {
+  from { scale: var(--rule-start-scale); }
+  to { scale: 1 1; }
+}
+@media (max-width: 767px) {
+  .ag-timeline {
+    --rule-start-scale: 1 0;
+  }
+}
+
+.motion-link {
+  position: relative;
+}
+.text-link.motion-link {
+  border-color: var(--line);
+}
+.motion-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 220ms var(--motion-ease);
+  pointer-events: none;
+}
+.motion-link:focus-visible::after,
+.motion-link:active::after,
+.motion-link.is-pressed::after {
+  transform: scaleX(1);
+}
+.motion-link:active,
+.motion-link.is-pressed {
+  color: var(--accent);
+}
+.motion-link:active::after,
+.motion-link.is-pressed::after {
+  transition: none;
+}
+.small-entrances > a,
+.small-entrances > button {
+  transition:
+    color 180ms ease,
+    transform 180ms var(--motion-ease),
+    translate 180ms var(--motion-ease),
+    background-color 350ms ease,
+    border-color 350ms ease;
+}
+.ag-short-reads article {
+  transition: transform 180ms var(--motion-ease), box-shadow 180ms ease;
+}
+.ag-feature-title > span,
+.ag-short-reads button > span,
+.ag-contact-bar button > span {
+  display: inline-block;
+  transition: transform 180ms var(--motion-ease);
+}
+.scroll-cue {
+  transition: color 180ms ease;
+}
+.text-link {
+  transition: color 180ms ease, border-color 180ms ease, translate 180ms var(--motion-ease);
+}
+.ps-save {
+  transition: box-shadow 180ms ease, translate 180ms var(--motion-ease);
+}
+.ps-form-grid input,
+.ps-form-grid textarea {
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+.ps-form-grid input:focus-visible,
+.ps-form-grid textarea:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.small-entrances > a:focus-visible,
+.small-entrances > button:focus-visible {
+  color: var(--accent);
+  transform: translateY(-3px);
+}
+.ag-short-reads article:focus-within {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px #a954731a;
+}
+.ag-feature-title:focus-visible > span,
+.ag-short-reads button:focus-visible > span,
+.ag-contact-bar button:focus-visible > span {
+  transform: translate(3px, -3px);
+}
+.scroll-cue:focus-visible {
+  color: var(--accent);
+}
+.scroll-cue:focus-visible svg {
+  animation: site-cue 450ms ease;
+}
+.site-name:focus-visible,
+.site-header nav > a:focus-visible,
+.ag-feature-title:focus-visible,
+.ag-short-reads button:focus-visible,
+.ag-contact-bar button:focus-visible,
+.reader-top button:focus-visible,
+.reader-bottom button:focus-visible,
+.ps-close:focus-visible,
+.ps-text-button:focus-visible {
+  color: var(--accent);
+}
+#color-toggle:focus-visible svg {
+  stroke: var(--accent);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .motion-link:hover::after {
+    transform: scaleX(1);
+  }
+  .site-header nav > a:hover::after {
+    transform: scaleX(1);
+  }
+  .site-name:hover,
+  .site-header nav > a:hover,
+  .reader-top button:hover,
+  .reader-bottom button:hover,
+  .ps-close:hover,
+  .ps-text-button:hover,
+  .scroll-cue:hover {
+    color: var(--accent);
+  }
+  #color-toggle:hover svg {
+    stroke: var(--accent);
+  }
+  .small-entrances > a:hover,
+  .small-entrances > button:hover {
+    color: var(--accent);
+    transform: translateY(-3px);
+  }
+  .ag-short-reads article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px #a954731a;
+  }
+  .ag-feature-title:hover > span,
+  .ag-short-reads button:hover > span,
+  .ag-contact-bar button:hover > span {
+    transform: translate(3px, -3px);
+  }
+  .scroll-cue:hover svg {
+    animation: site-cue 450ms ease;
+  }
+  .ps-save:hover {
+    box-shadow: 0 3px 12px color-mix(in srgb, var(--ink) 16%, transparent);
+  }
+}
+:is(.small-entrances, .ag-contact-bar, .reader-top, .reader-bottom) > :is(a, button):active,
+:is(.ag-feature-title, .ag-short-reads button, .text-link, #color-toggle, .ps-close, .ps-save, .ps-text-button):active:not(:disabled) {
+  translate: 0 1px;
+}
+@keyframes site-cue {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+#entry-reader[open],
+.ps-dialog[open] {
+  animation: site-dialog-in 240ms var(--motion-ease);
+}
+#entry-reader[open]::backdrop,
+.ps-dialog[open]::backdrop {
+  animation: site-backdrop-in 240ms ease;
+}
+@keyframes site-dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes site-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.toast-enter-active,
+.toast-leave-active {
+  transition: opacity 180ms ease, transform 180ms var(--motion-ease);
+}
+.toast-enter-from,
+.toast-leave-to {
+  opacity: 0;
+  transform: translate(-50%, 8px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after,
+  dialog::backdrop {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  [data-reveal-state] {
+    opacity: 1;
+    translate: none;
+  }
+  .ag-timeline::before {
+    scale: 1 1 !important;
+  }
+  .theme-icon-leave-active {
+    display: none;
+  }
+  .theme-icon-enter-from {
+    opacity: 1;
+    transform: none;
+  }
+  .small-entrances > a,
+  .small-entrances > button,
+  .ag-short-reads article,
+  .ag-feature-title > span,
+  .ag-short-reads button > span,
+  .ag-contact-bar button > span,
+  .scroll-cue svg {
+    transform: none !important;
+  }
+  a:active,
+  button:active {
+    translate: none !important;
+  }
+  .toast-enter-from,
+  .toast-leave-to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}

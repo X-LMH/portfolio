@@ -2,13 +2,9 @@
 defineProps<{ message: string }>();
 </script>
 <template>
-  <div
-    class="ps-toast"
-    :class="{ 'ps-visible': message }"
-    :hidden="!message"
-    role="status"
-    aria-live="polite"
-  >
-    {{ message }}
+  <div role="status" aria-live="polite" aria-atomic="true">
+    <Transition name="toast">
+      <div v-if="message" class="ps-toast">{{ message }}</div>
+    </Transition>
   </div>
 </template>

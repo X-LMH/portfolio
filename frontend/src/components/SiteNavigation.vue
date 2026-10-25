@@ -27,7 +27,16 @@ defineEmits<{ theme: [] }>();
         :aria-pressed="dark"
         @click="$emit('theme')"
       >
-        <SiteIcon :name="dark ? 'sun' : 'moon'" />
+        <Transition name="theme-icon">
+          <span
+            :key="dark ? 'sun' : 'moon'"
+            class="theme-icon"
+            :data-theme-icon="dark ? 'sun' : 'moon'"
+            aria-hidden="true"
+          >
+            <SiteIcon :name="dark ? 'sun' : 'moon'" />
+          </span>
+        </Transition>
       </button>
     </div>
   </header>

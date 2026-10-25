@@ -11,6 +11,7 @@ import ToastMessage from "./components/ToastMessage.vue";
 import { useProfile } from "./composables/useProfile";
 import { useTheme } from "./composables/useTheme";
 import { useSectionNavigation } from "./composables/useSectionNavigation";
+import { useReveal } from "./composables/useReveal";
 import { siteService } from "./services/site";
 import type { Article, Moment, Profile } from "./types/site";
 
@@ -18,6 +19,7 @@ const { profile, loadProfile, saveProfile, resetProfile } = useProfile();
 const { dark, toggleTheme } = useTheme();
 const ready = ref(false);
 const { current } = useSectionNavigation(ready);
+useReveal(ready, current);
 const articles = ref<Article[]>([]);
 const moments = ref<Moment[]>([]);
 const selectedArticle = ref<Article | null>(null);

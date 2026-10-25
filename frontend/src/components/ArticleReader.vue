@@ -1,7 +1,10 @@
 <script setup lang="ts">
+import { ref, watch } from "vue";
 import type { Article } from "../types/site";
 import BaseDialog from "./BaseDialog.vue";
-defineProps<{ article: Article | null }>();
+const props = defineProps<{ article: Article | null }>();
+const linkPressed = ref(false);
+watch(() => props.article, () => (linkPressed.value = false));
 defineEmits<{ close: [] }>();
 </script>
 <template>
@@ -25,7 +28,16 @@ defineEmits<{ close: [] }>();
       </div>
       <div class="reader-bottom">
         <span>此篇为示例文字。</span
-        ><button @click="$emit('close')">读完了，返回 ↩</button>
+        ><button
+          class="motion-link"
+          :class="{ 'is-pressed': linkPressed }"
+          @pointerdown="linkPressed = true"
+          @pointerup="linkPressed = false"
+          @pointercancel="linkPressed = false"
+          @pointerleave="linkPressed = false"
+          @blur="linkPressed = false"
+          @click="$emit('close')"
+        >读完了，返回 ↩</button>
       </div></template
     ></BaseDialog
   >
