@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN" data-default-color="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="把日常写下来。一份关于散步、阅读与动手做东西的个人海报。">
+  <meta name="theme-color" content="#f6f5ed">
+  <title>日常，排成一张海报</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/poster/style.css">
+  <script src="/shared.js" defer></script>
+  <script src="/content.js" defer></script>
+  <script src="/reading.js" defer></script>
+  <script src="/behavior.js" defer></script>
+  <script src="/poster/ui.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#poster-main">跳到正文</a>
+  <aside class="poster-rail" aria-label="页面目录">
+    <a class="rail-mark" href="#cover" aria-label="回到封面">序<span>POSTER</span></a>
+    <nav class="poster-nav">
+      <a href="#cover" aria-current="location"><span>00</span>封面</a>
+      <a href="#walk"><span>01</span>散步</a>
+      <a href="#book"><span>02</span>阅读</a>
+      <a href="#tool"><span>03</span>手记</a>
+      <a href="#notes"><span>04</span>片刻</a>
+      <a href="#hello"><span>05</span>署名</a>
+    </nav>
+    <div class="rail-tools"><button type="button" data-theme-toggle>夜间模式</button><a href="/designs/">方案对比 ↗</a></div>
+  </aside>
+  <main id="poster-main">
+    <section class="poster-section cover" id="cover" aria-labelledby="cover-title">
+      <div class="poster-topline"><span>PERSONAL NOTES — VOL. 01</span><span>日常 / 随手记 / 2026</span></div>
+      <div class="cover-composition">
+        <h1 id="cover-title">写一点<span>日常<span class="cover-period">。</span></span></h1>
+        <div class="cover-side"><span class="cover-cross" aria-hidden="true">＋</span><p>没什么大事。<br>只是把一些小事<br>留在这里。</p><a class="ink-link" href="#walk">从这里开始 ↓</a></div>
+      </div>
+      <footer class="cover-footer"><div><span class="tiny-label">A PERSONAL PLACE BY</span><span class="cover-name" data-profile="name">林序</span></div><p>散步。阅读。偶尔动手。<br>一些普通的日子，也值得记下来。</p><a href="/designs/">查看全部设计 ↗</a></footer>
+    </section>
+
+    <section class="poster-section walk-poster" id="walk" aria-labelledby="walk-title">
+      <div class="poster-topline"><span>01 / OUTSIDE</span><span>日常 / 散步</span></div>
+      <div class="walk-heading"><span class="walk-numeral" aria-hidden="true">01</span><h2 id="walk-title" data-entry="walk" data-field="title">换一条路回家</h2></div>
+      <div class="walk-rule" aria-hidden="true"></div>
+      <div class="walk-bottom"><p class="walk-aside">熟悉的路，<br>也可以暂时绕开。</p><div class="walk-copy"><p data-entry="walk" data-field="excerpt"></p><button class="poster-read" type="button" data-read="walk">读这篇手记 <span aria-hidden="true">↗</span></button></div><span class="vertical-label">TAKE THE LONG WAY HOME</span></div>
+      <span class="section-tail">NOTES ON EVERYDAY LIFE</span>
+    </section>
+
+    <section class="poster-section book-poster" id="book" aria-labelledby="book-title">
+      <div class="book-upper"><div class="poster-topline"><span>02 / IN THE MARGIN</span><span>阅读 / 随手记</span></div><h2 id="book-title" data-entry="book" data-field="title">书签还夹在那一页</h2><div class="book-caption"><span>一本还没读完的书。</span><span>先不用急着翻到最后。</span></div></div>
+      <div class="book-lower"><div class="book-symbol" aria-hidden="true">Aa<span>慢慢读</span></div><div class="book-copy"><p data-entry="book" data-field="excerpt"></p><button class="poster-read" type="button" data-read="book">继续读下去 <span aria-hidden="true">↗</span></button></div><span class="book-page">P.<br>02</span></div>
+    </section>
+
+    <section class="poster-section tool-poster" id="tool" aria-labelledby="tool-title">
+      <div class="poster-topline"><span>03 / NOTE TO SELF</span><span>手记 / 一个小工具</span></div>
+      <div class="tool-band" aria-hidden="true"><span>手记</span><span>MEMO<br>TO SELF</span><span>03</span></div>
+      <div class="tool-content"><h2 id="tool-title" data-entry="tool" data-field="title">给小工具补一句说明</h2><div class="tool-copy"><p data-entry="tool" data-field="excerpt"></p><button class="poster-read" type="button" data-read="tool">打开这份说明 <span aria-hidden="true">↗</span></button></div></div>
+      <footer class="tool-footer"><span>写给以后的自己。</span><span>LESS GUESSING. MORE DOING.</span></footer>
+    </section>
+
+    <section class="poster-section notes-poster" id="notes" aria-labelledby="notes-title">
+      <header class="notes-heading"><div><span class="tiny-label">04 / SMALL THINGS</span><h2 id="notes-title">还有，这些。</h2></div><p>不必成为一篇文章，<br>留下一句话也好。</p></header>
+      <div class="notes-table">
+        <article class="note-row"><time data-moment="0" data-field="date">10.20</time><h3 data-moment="0" data-field="title"></h3><p data-moment="0" data-field="text"></p><span data-moment="0" data-field="tag"></span></article>
+        <article class="note-row"><time data-moment="1" data-field="date">10.16</time><h3 data-moment="1" data-field="title"></h3><p data-moment="1" data-field="text"></p><span data-moment="1" data-field="tag"></span></article>
+        <article class="note-row"><time data-moment="2" data-field="date">10.09</time><h3 data-moment="2" data-field="title"></h3><p data-moment="2" data-field="text"></p><span data-moment="2" data-field="tag"></span></article>
+      </div>
+      <footer class="notes-footer"><span>一点点记录，慢慢累积。</span><a href="#hello">下一页，打个招呼 ↘</a></footer>
+    </section>
+
+    <section class="poster-section hello-poster" id="hello" aria-labelledby="hello-title">
+      <div class="poster-topline"><span>05 / SIGNED</span><span data-example-label>示例档案</span></div>
+      <div class="hello-heading"><p>写到这里，<br>也介绍一下自己。</p><h2 id="hello-title" data-profile="name">林序</h2><span class="hello-star" aria-hidden="true">↗</span></div>
+      <div class="hello-detail"><div class="hello-location"><span class="tiny-label">SOMEWHERE IN</span><span data-profile="location">中国 / UTC+8</span><button type="button" class="plain-button" data-edit-profile>编辑这里的资料 ↗</button></div><div class="hello-copy"><p data-profile="about"></p><div class="hello-contact"><button type="button" data-contact>给我写信 ↗</button><button type="button" data-copy-email>复制邮箱</button></div></div></div>
+      <footer class="hello-footer"><span>这份日常，未完待续。</span><div><a href="/blog/">老派博客 ↗</a><a href="/cinema/">影像放映室 ↗</a><a href="/designs/">方案对比 ↗</a></div><a href="#cover">回到封面 ↑</a></footer>
+    </section>
+  </main>
+  <dialog id="entry-reader" class="poster-reader" aria-labelledby="entry-title">
+    <header class="reader-head"><span id="entry-kind"></span><button type="button" data-close-entry aria-label="关闭阅读">关闭 ×</button></header>
+    <h2 id="entry-title"></h2><div id="entry-copy"></div><footer class="reader-footer">END OF NOTE <button type="button" data-close-entry>返回海报 ↙</button></footer>
+  </dialog>
+</body>
+</html>

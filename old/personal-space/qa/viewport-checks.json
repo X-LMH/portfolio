@@ -1,0 +1,983 @@
+[
+  {
+    "blocks": [
+      {
+        "bottom": 559,
+        "left": 451,
+        "right": 814,
+        "tag": "home-identity",
+        "top": 202
+      },
+      {
+        "bottom": 709,
+        "left": 610,
+        "right": 654,
+        "tag": "scroll-cue",
+        "top": 668
+      },
+      {
+        "bottom": 773,
+        "left": 60,
+        "right": 1205,
+        "tag": "home-footer",
+        "top": 757
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "text",
+    "section": "home",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 675,
+        "left": 82,
+        "right": 1182,
+        "tag": "catalog-layout",
+        "top": 165
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "text",
+    "section": "articles",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 636,
+        "left": 82,
+        "right": 1182,
+        "tag": "margin-layout",
+        "top": 205
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "text",
+    "section": "moments",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 671,
+        "left": 107,
+        "right": 1157,
+        "tag": "letter-layout",
+        "top": 169
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "text",
+    "section": "about",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "reader": true,
+    "rect": [
+      272.3999938964844,
+      155.6999969482422,
+      992.3999938964844,
+      644.3000030517578
+    ],
+    "scheme": "text",
+    "scroll": false,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 559,
+        "left": 451,
+        "right": 814,
+        "tag": "home-identity",
+        "top": 202
+      },
+      {
+        "bottom": 709,
+        "left": 610,
+        "right": 654,
+        "tag": "scroll-cue",
+        "top": 668
+      },
+      {
+        "bottom": 773,
+        "left": 60,
+        "right": 1205,
+        "tag": "home-footer",
+        "top": 757
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "home",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 680,
+        "left": 92,
+        "right": 1172,
+        "tag": "photo-spread",
+        "top": 160
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "articles",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 684,
+        "left": 92,
+        "right": 1172,
+        "tag": "photo-contact-sheet",
+        "top": 156
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "moments",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 640,
+        "left": 157,
+        "right": 1107,
+        "tag": "photo-ending",
+        "top": 200
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "about",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "reader": true,
+    "rect": [
+      272.3999938964844,
+      165.1999969482422,
+      992.3999938964844,
+      634.8000030517578
+    ],
+    "scheme": "photo",
+    "scroll": false,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 559,
+        "left": 451,
+        "right": 814,
+        "tag": "home-identity",
+        "top": 202
+      },
+      {
+        "bottom": 709,
+        "left": 610,
+        "right": 654,
+        "tag": "scroll-cue",
+        "top": 668
+      },
+      {
+        "bottom": 773,
+        "left": 60,
+        "right": 1205,
+        "tag": "home-footer",
+        "top": 757
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "home",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 656,
+        "left": 107,
+        "right": 1157,
+        "tag": "bookmark-desk",
+        "top": 184
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "articles",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 617,
+        "left": 132,
+        "right": 1132,
+        "tag": "memo-wall",
+        "top": 223
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "moments",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 623,
+        "left": 157,
+        "right": 1107,
+        "tag": "postscript",
+        "top": 217
+      }
+    ],
+    "height": 800,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "about",
+    "sectionTop": 0,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "reader": true,
+    "rect": [
+      272.3999938964844,
+      165.1999969482422,
+      992.3999938964844,
+      634.8000030517578
+    ],
+    "scheme": "anime",
+    "scroll": false,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 507,
+        "left": 512,
+        "right": 839,
+        "tag": "home-identity",
+        "top": 207
+      },
+      {
+        "bottom": 677,
+        "left": 654,
+        "right": 698,
+        "tag": "scroll-cue",
+        "top": 636
+      },
+      {
+        "bottom": 741,
+        "left": 60,
+        "right": 1291,
+        "tag": "home-footer",
+        "top": 725
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "text",
+    "section": "home",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 646,
+        "left": 126,
+        "right": 1226,
+        "tag": "catalog-layout",
+        "top": 177
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "text",
+    "section": "articles",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 613,
+        "left": 126,
+        "right": 1226,
+        "tag": "margin-layout",
+        "top": 210
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "text",
+    "section": "moments",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 622,
+        "left": 151,
+        "right": 1201,
+        "tag": "letter-layout",
+        "top": 201
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "text",
+    "section": "about",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "reader": true,
+    "rect": [
+      315.6000061035156,
+      139.6999969482422,
+      1035.6000061035156,
+      628.3000030517578
+    ],
+    "scheme": "text",
+    "scroll": false,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 507,
+        "left": 512,
+        "right": 839,
+        "tag": "home-identity",
+        "top": 207
+      },
+      {
+        "bottom": 677,
+        "left": 654,
+        "right": 698,
+        "tag": "scroll-cue",
+        "top": 636
+      },
+      {
+        "bottom": 741,
+        "left": 60,
+        "right": 1291,
+        "tag": "home-footer",
+        "top": 725
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "home",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 656,
+        "left": 136,
+        "right": 1216,
+        "tag": "photo-spread",
+        "top": 167
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "articles",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 671,
+        "left": 136,
+        "right": 1216,
+        "tag": "photo-contact-sheet",
+        "top": 152
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "moments",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 620,
+        "left": 201,
+        "right": 1151,
+        "tag": "photo-ending",
+        "top": 203
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "about",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "reader": true,
+    "rect": [
+      315.6000061035156,
+      149.1999969482422,
+      1035.6000061035156,
+      618.8000030517578
+    ],
+    "scheme": "photo",
+    "scroll": false,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 507,
+        "left": 512,
+        "right": 839,
+        "tag": "home-identity",
+        "top": 207
+      },
+      {
+        "bottom": 677,
+        "left": 654,
+        "right": 698,
+        "tag": "scroll-cue",
+        "top": 636
+      },
+      {
+        "bottom": 741,
+        "left": 60,
+        "right": 1291,
+        "tag": "home-footer",
+        "top": 725
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "home",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 635,
+        "left": 151,
+        "right": 1201,
+        "tag": "bookmark-desk",
+        "top": 188
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "articles",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 599,
+        "left": 176,
+        "right": 1176,
+        "tag": "memo-wall",
+        "top": 224
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "moments",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 598,
+        "left": 201,
+        "right": 1151,
+        "tag": "postscript",
+        "top": 225
+      }
+    ],
+    "height": 768,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "about",
+    "sectionTop": 0,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "reader": true,
+    "rect": [
+      315.6000061035156,
+      149.1999969482422,
+      1035.6000061035156,
+      618.8000030517578
+    ],
+    "scheme": "anime",
+    "scroll": false,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 699,
+        "left": 771,
+        "right": 1134,
+        "tag": "home-identity",
+        "top": 342
+      },
+      {
+        "bottom": 989,
+        "left": 930,
+        "right": 974,
+        "tag": "scroll-cue",
+        "top": 948
+      },
+      {
+        "bottom": 1053,
+        "left": 60,
+        "right": 1845,
+        "tag": "home-footer",
+        "top": 1037
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "text",
+    "section": "home",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 815,
+        "left": 402,
+        "right": 1502,
+        "tag": "catalog-layout",
+        "top": 305
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "text",
+    "section": "articles",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 776,
+        "left": 402,
+        "right": 1502,
+        "tag": "margin-layout",
+        "top": 345
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "text",
+    "section": "moments",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 811,
+        "left": 427,
+        "right": 1477,
+        "tag": "letter-layout",
+        "top": 309
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "text",
+    "section": "about",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "reader": true,
+    "rect": [
+      592.4000244140625,
+      295.70001220703125,
+      1312.4000244140625,
+      784.3000183105469
+    ],
+    "scheme": "text",
+    "scroll": false,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 699,
+        "left": 771,
+        "right": 1134,
+        "tag": "home-identity",
+        "top": 342
+      },
+      {
+        "bottom": 989,
+        "left": 930,
+        "right": 974,
+        "tag": "scroll-cue",
+        "top": 948
+      },
+      {
+        "bottom": 1053,
+        "left": 60,
+        "right": 1845,
+        "tag": "home-footer",
+        "top": 1037
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "home",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 820,
+        "left": 412,
+        "right": 1492,
+        "tag": "photo-spread",
+        "top": 300
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "articles",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 824,
+        "left": 412,
+        "right": 1492,
+        "tag": "photo-contact-sheet",
+        "top": 296
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "moments",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 780,
+        "left": 477,
+        "right": 1427,
+        "tag": "photo-ending",
+        "top": 340
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "photo",
+    "section": "about",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "reader": true,
+    "rect": [
+      592.4000244140625,
+      305.20001220703125,
+      1312.4000244140625,
+      774.8000183105469
+    ],
+    "scheme": "photo",
+    "scroll": false,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 699,
+        "left": 771,
+        "right": 1134,
+        "tag": "home-identity",
+        "top": 342
+      },
+      {
+        "bottom": 989,
+        "left": 930,
+        "right": 974,
+        "tag": "scroll-cue",
+        "top": 948
+      },
+      {
+        "bottom": 1053,
+        "left": 60,
+        "right": 1845,
+        "tag": "home-footer",
+        "top": 1037
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "home",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 796,
+        "left": 427,
+        "right": 1477,
+        "tag": "bookmark-desk",
+        "top": 324
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "articles",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 757,
+        "left": 452,
+        "right": 1452,
+        "tag": "memo-wall",
+        "top": 363
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "moments",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "bottom": 763,
+        "left": 477,
+        "right": 1427,
+        "tag": "postscript",
+        "top": 357
+      }
+    ],
+    "height": 1080,
+    "overflow": false,
+    "scheme": "anime",
+    "section": "about",
+    "sectionTop": 0,
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "reader": true,
+    "rect": [
+      592.4000244140625,
+      305.20001220703125,
+      1312.4000244140625,
+      774.8000183105469
+    ],
+    "scheme": "anime",
+    "scroll": false,
+    "size": [
+      1920,
+      1080
+    ]
+  }
+]

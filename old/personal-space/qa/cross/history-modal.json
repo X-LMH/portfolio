@@ -1,0 +1,186 @@
+{
+  "history": [
+    {
+      "skin": "anime-glass",
+      "back": {
+        "hash": "#articles",
+        "top": 0
+      },
+      "forward": {
+        "hash": "#moments",
+        "top": 0
+      },
+      "reload": {
+        "hash": "#moments",
+        "top": 0
+      }
+    },
+    {
+      "skin": "future-glass",
+      "back": {
+        "hash": "#articles",
+        "top": 0
+      },
+      "forward": {
+        "hash": "#moments",
+        "top": 0
+      },
+      "reload": {
+        "hash": "#moments",
+        "top": 0
+      }
+    },
+    {
+      "skin": "anime-future",
+      "back": {
+        "hash": "#articles",
+        "top": 0
+      },
+      "forward": {
+        "hash": "#moments",
+        "top": 0
+      },
+      "reload": {
+        "hash": "#moments",
+        "top": 0
+      }
+    },
+    {
+      "skin": "anime",
+      "back": {
+        "hash": "#articles",
+        "top": 0
+      },
+      "forward": {
+        "hash": "#moments",
+        "top": 0
+      },
+      "reload": {
+        "hash": "#moments",
+        "top": 0
+      }
+    },
+    {
+      "skin": "future",
+      "back": {
+        "hash": "#articles",
+        "top": 0
+      },
+      "forward": {
+        "hash": "#moments",
+        "top": 0
+      },
+      "reload": {
+        "hash": "#moments",
+        "top": 0
+      }
+    },
+    {
+      "skin": "glass",
+      "back": {
+        "hash": "#articles",
+        "top": 0
+      },
+      "forward": {
+        "hash": "#moments",
+        "top": 0
+      },
+      "reload": {
+        "hash": "#moments",
+        "top": 0
+      }
+    }
+  ],
+  "modal": [
+    {
+      "skin": "anime-glass",
+      "reader": {
+        "current": "#articles",
+        "open": true
+      },
+      "esc": {
+        "closed": true,
+        "focus": "walk"
+      },
+      "editor": {
+        "current": "#about",
+        "open": true
+      }
+    },
+    {
+      "skin": "future-glass",
+      "reader": {
+        "current": "#articles",
+        "open": true
+      },
+      "esc": {
+        "closed": true,
+        "focus": "walk"
+      },
+      "editor": {
+        "current": "#about",
+        "open": true
+      }
+    },
+    {
+      "skin": "anime-future",
+      "reader": {
+        "current": "#articles",
+        "open": true
+      },
+      "esc": {
+        "closed": true,
+        "focus": "walk"
+      },
+      "editor": {
+        "current": "#about",
+        "open": true
+      }
+    },
+    {
+      "skin": "anime",
+      "reader": {
+        "current": "#articles",
+        "open": true
+      },
+      "esc": {
+        "closed": true,
+        "focus": "walk"
+      },
+      "editor": {
+        "current": "#about",
+        "open": true
+      }
+    },
+    {
+      "skin": "future",
+      "reader": {
+        "current": "#articles",
+        "open": true
+      },
+      "esc": {
+        "closed": true,
+        "focus": "walk"
+      },
+      "editor": {
+        "current": "#about",
+        "open": true
+      }
+    },
+    {
+      "skin": "glass",
+      "reader": {
+        "current": "#articles",
+        "open": true
+      },
+      "esc": {
+        "closed": true,
+        "focus": "walk"
+      },
+      "editor": {
+        "current": "#about",
+        "open": true
+      }
+    }
+  ]
+}

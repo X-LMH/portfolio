@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-bookmark]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-bookmark]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));document.querySelectorAll('[data-bookpage]').forEach(page=>page.hidden=page.dataset.bookpage!==button.dataset.bookmark);}));

@@ -1,0 +1,149 @@
+{
+  "movie": [
+    {
+      "action": "next",
+      "count": "02",
+      "hash": "#walk"
+    },
+    {
+      "action": "back",
+      "hash": "#cover",
+      "prevDisabled": true
+    },
+    {
+      "action": "keyboard",
+      "hash": "#book",
+      "inert": true,
+      "visible": 1
+    },
+    {
+      "action": "reloadLast",
+      "hash": "#after",
+      "nextDisabled": true
+    },
+    {
+      "action": "unknown",
+      "hash": "#cover"
+    }
+  ],
+  "modes": [
+    {
+      "color": "dark",
+      "hash": "#walk",
+      "name": "blog",
+      "paper": "rgb(32, 36, 33)",
+      "reader": true,
+      "returnedFocus": true,
+      "emptyEmailOpensEditor": true,
+      "editorPaper": "rgb(32, 36, 33)"
+    },
+    {
+      "color": "dark",
+      "hash": "#walk",
+      "name": "poster",
+      "paper": "rgb(29, 32, 29)",
+      "reader": true,
+      "returnedFocus": true,
+      "emptyEmailOpensEditor": true,
+      "editorPaper": "rgb(29, 32, 29)"
+    },
+    {
+      "color": "dark",
+      "hash": "#walk",
+      "name": "cinema",
+      "paper": "rgb(31, 41, 41)",
+      "reader": true,
+      "returnedFocus": true,
+      "emptyEmailOpensEditor": true,
+      "editorPaper": "rgb(31, 41, 41)"
+    }
+  ],
+  "profileCases": [
+    {
+      "aboutVisible": 400,
+      "innerScroll": null,
+      "name": "blog",
+      "overflow": false,
+      "profile": "临时布局检查昵称临时布局检查昵称临时布局检查昵称",
+      "sectionHeight": null
+    },
+    {
+      "aboutVisible": 400,
+      "innerScroll": null,
+      "name": "poster",
+      "overflow": false,
+      "profile": "临时布局检查昵称临时布局检查昵称临时布局检查昵称",
+      "sectionHeight": 768
+    },
+    {
+      "aboutVisible": 400,
+      "innerScroll": true,
+      "name": "cinema",
+      "overflow": false,
+      "profile": "临时布局检查昵称临时布局检查昵称临时布局检查昵称",
+      "sectionHeight": null
+    }
+  ],
+  "lateChecks": [
+    {
+      "id": "hello",
+      "name": "poster",
+      "overflow": false,
+      "sectionHeight": 800,
+      "size": [
+        1280,
+        800
+      ]
+    },
+    {
+      "id": "book",
+      "name": "cinema",
+      "overflow": false,
+      "sectionHeight": 712,
+      "size": [
+        1280,
+        800
+      ]
+    },
+    {
+      "id": "hello",
+      "name": "poster",
+      "overflow": false,
+      "sectionHeight": 768,
+      "size": [
+        1366,
+        768
+      ]
+    },
+    {
+      "id": "book",
+      "name": "cinema",
+      "overflow": false,
+      "sectionHeight": 688,
+      "size": [
+        1366,
+        768
+      ]
+    },
+    {
+      "id": "hello",
+      "name": "poster",
+      "overflow": false,
+      "sectionHeight": 1080,
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "id": "book",
+      "name": "cinema",
+      "overflow": false,
+      "sectionHeight": 992,
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  ]
+}

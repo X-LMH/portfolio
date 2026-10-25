@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN" data-default-color="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#161b1d">
+  <meta name="description" content="几段散步、阅读与日常手记。影像放映室设计示例。">
+  <title>生活的几个片段 · 影像放映室</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/cinema/style.css">
+  <script src="/shared.js" defer></script>
+  <script src="/content.js" defer></script>
+  <script src="/reading.js" defer></script>
+  <script src="/behavior.js" defer></script>
+  <script src="/cinema/ui.js" defer></script>
+</head>
+<body data-scene="cover">
+  <a class="skip-scene" href="#scene-content">跳到当前内容</a>
+  <header class="cinema-head">
+    <a class="cinema-brand" href="#cover" data-scene-link="cover"><span class="brand-square" aria-hidden="true"></span><span data-profile="name">林序</span><span class="brand-separator">/</span>生活片段</a>
+    <div class="cinema-tools"><span class="head-edition">PERSONAL PICTURES · 2026</span><button type="button" data-theme-toggle aria-label="切换日夜模式">日 / 夜</button><a href="/designs/">全部方案 ↗</a></div>
+  </header>
+
+  <main id="scene-content" class="cinema-stage" aria-label="五幕日常片段" tabindex="-1">
+    <section id="cover" class="scene scene-cover" aria-labelledby="cover-title" data-film-scene>
+      <img class="scene-image image-cover" src="/assets/street.webp" width="1400" height="928" alt="阳光下的安静街道，一位行人向前走去。">
+      <div class="scene-shade" aria-hidden="true"></div>
+      <div class="scene-tag"><span>序幕</span><span class="tag-rule"></span><span>一些日常，慢慢记</span></div>
+      <div class="cover-titles"><p class="scene-overline">A FEW THINGS FROM ORDINARY DAYS</p><h1 id="cover-title">生活的<br>几个片段。</h1></div>
+      <div class="cover-aside"><p>有时出去走走，<br>有时翻几页书。<br>还有一些顺手记下的小事。</p><button class="scene-action" data-go-scene="walk" type="button">从一段散步开始 <span aria-hidden="true">↗</span></button></div>
+      <p class="photo-credit">公共照片占位，非本人拍摄 · <a href="https://unsplash.com/photos/a-person-walks-down-a-quiet-street-in-japan-I2e5b8ppox4" target="_blank" rel="noreferrer">PJH / Unsplash ↗</a></p>
+    </section>
+
+    <section id="walk" class="scene scene-walk" aria-labelledby="walk-title" data-film-scene hidden inert>
+      <img class="scene-image image-walk" src="/assets/street.webp" width="1400" height="928" alt="街巷两侧的矮墙与屋檐，延伸向远处的小路。">
+      <div class="scene-shade" aria-hidden="true"></div>
+      <div class="scene-tag"><span>第一幕</span><span class="tag-rule"></span><span>散步 / 2026.10.20</span></div>
+      <div class="walk-titles"><p class="scene-overline">ON THE WAY HOME</p><h2 id="walk-title" data-entry="walk" data-field="title">换一条路回家</h2><p class="scene-excerpt" data-entry="walk" data-field="excerpt"></p><button class="scene-action" type="button" data-read="walk">读这段记录 <span aria-hidden="true">↗</span></button></div>
+      <p class="scene-sidenote">路稍微远一点。<br>不过，天还没黑。</p>
+      <p class="photo-credit">公共照片占位，非本人拍摄 · <a href="https://unsplash.com/photos/a-person-walks-down-a-quiet-street-in-japan-I2e5b8ppox4" target="_blank" rel="noreferrer">PJH / Unsplash ↗</a></p>
+    </section>
+
+    <section id="book" class="scene scene-book" aria-labelledby="book-title" data-film-scene hidden inert>
+      <img class="scene-image image-book" src="/assets/book.webp" width="1400" height="934" alt="暗色木桌上的一本书和一只杯子，远处有柔和灯光。">
+      <div class="scene-shade" aria-hidden="true"></div>
+      <div class="scene-tag"><span>第二幕</span><span class="tag-rule"></span><span>阅读 / 2026.10.12</span></div>
+      <div class="book-titles"><p class="scene-overline">LEAVE THE BOOK OPEN</p><h2 id="book-title" data-entry="book" data-field="title">书签还夹在那一页</h2><p class="scene-excerpt" data-entry="book" data-field="excerpt"></p><button class="scene-action" type="button" data-read="book">翻开这一页 <span aria-hidden="true">↗</span></button></div>
+      <span class="book-margin" aria-hidden="true">不用急着读完。</span>
+      <p class="photo-credit">公共照片占位，非本人拍摄 · <a href="https://unsplash.com/photos/book-beside-mug-FNQbnOKvQ_k" target="_blank" rel="noreferrer">Annie Spratt / Unsplash ↗</a></p>
+    </section>
+
+    <section id="tool" class="scene scene-tool" aria-labelledby="tool-title" data-film-scene hidden inert>
+      <div class="scene-tag"><span>第三幕</span><span class="tag-rule"></span><span>手记 / 2026.10.03</span></div>
+      <div class="tool-mark" aria-hidden="true">//</div>
+      <div class="tool-titles"><p class="scene-overline">A NOTE TO MY FUTURE SELF</p><h2 id="tool-title" data-entry="tool" data-field="title">给小工具补一句说明</h2><p class="scene-excerpt" data-entry="tool" data-field="excerpt"></p><button class="scene-action" type="button" data-read="tool">继续读 <span aria-hidden="true">↗</span></button></div>
+      <aside class="tool-aside"><span>随手记 · 03</span><p>“说明不一定只是写给别人。<br>有时候，未来的自己<br>也需要一句提醒。”</p><span class="tool-aside-rule"></span><small>留在这里，下次就找得到了。</small></aside>
+    </section>
+
+    <section id="after" class="scene scene-after" aria-labelledby="after-title" data-film-scene hidden inert>
+      <div class="scene-tag"><span>尾声</span><span class="tag-rule"></span><span>最近的三个片刻</span></div>
+      <div class="after-layout"><div class="after-records"><p class="scene-overline">LIFE GOES ON, OFF SCREEN</p><h2 id="after-title">镜头之外。</h2><div class="after-moments">
+        <article class="after-moment"><time data-moment="0" data-field="date">10.20</time><div><h3 data-moment="0" data-field="title"></h3><p data-moment="0" data-field="text"></p></div></article>
+        <article class="after-moment"><time data-moment="1" data-field="date">10.16</time><div><h3 data-moment="1" data-field="title"></h3><p data-moment="1" data-field="text"></p></div></article>
+        <article class="after-moment"><time data-moment="2" data-field="date">10.09</time><div><h3 data-moment="2" data-field="title"></h3><p data-moment="2" data-field="text"></p></div></article>
+      </div></div><aside class="after-about"><span class="after-small">关于记录的人</span><p class="after-name" data-profile="name">林序</p><p class="after-bio" data-profile="about"></p><p class="after-location" data-profile="location">中国 / UTC+8</p><div class="after-links"><button type="button" data-contact>写封信 ↗</button><button type="button" data-edit-profile>编辑资料</button></div><div class="after-other"><span>换一种方式看看</span><a href="/blog/">老派个人博客 ↗</a><a href="/poster/">平面海报 ↗</a><a href="/designs/">返回方案对比 ↗</a></div></aside></div>
+    </section>
+  </main>
+
+  <footer class="film-controls" aria-label="放映控制">
+    <div class="film-counter"><span data-scene-number>01</span><span class="counter-total">/ 05</span></div>
+    <nav class="film-directory" aria-label="五幕目录">
+      <a href="#cover" data-scene-link="cover" aria-current="page"><span class="film-tick" aria-hidden="true"></span><span>序幕</span></a>
+      <a href="#walk" data-scene-link="walk"><span class="film-tick" aria-hidden="true"></span><span>散步</span></a>
+      <a href="#book" data-scene-link="book"><span class="film-tick" aria-hidden="true"></span><span>阅读</span></a>
+      <a href="#tool" data-scene-link="tool"><span class="film-tick" aria-hidden="true"></span><span>手记</span></a>
+      <a href="#after" data-scene-link="after"><span class="film-tick" aria-hidden="true"></span><span>尾声</span></a>
+    </nav>
+    <div class="film-step"><button type="button" data-film-prev disabled aria-label="上一幕">←<span>上一幕</span></button><span class="step-divider" aria-hidden="true"></span><button type="button" data-film-next aria-label="下一幕"><span>下一幕</span>→</button></div>
+  </footer>
+  <p class="film-announcement" data-film-announcement role="status" aria-live="polite" aria-atomic="true"></p>
+
+  <dialog id="entry-reader" class="cinema-reader" aria-labelledby="entry-title"><div class="reader-top"><span id="entry-kind"></span><button type="button" data-close-entry aria-label="关闭文章">关闭 ×</button></div><div class="reader-body"><span class="reader-label">READING ROOM</span><h2 id="entry-title"></h2><div id="entry-copy"></div><div class="reader-bottom"><span>此篇为示例文字。</span><button type="button" data-close-entry>回到画面 ↩</button></div></div></dialog>
+</body>
+</html>

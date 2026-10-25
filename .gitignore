@@ -1,0 +1,32 @@
+# Dependencies and generated files
+node_modules/
+# Historical dist/ files under old/ are part of the archived website.
+/frontend/dist/
+/frontend/dist-ssr/
+/frontend/qa/
+coverage/
+*.tsbuildinfo
+
+# Logs and local environment settings
+logs/
+*.log
+*.local
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Editor and operating-system files
+.idea/
+**/.vscode/*
+!**/.vscode/extensions.json
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

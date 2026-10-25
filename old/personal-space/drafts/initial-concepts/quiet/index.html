@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fcfbf8">
+  <meta name="description" content="慢慢介绍，一张留有空白的个人主页。放一点近况，也留一些日常。">
+  <title>慢慢介绍 · 林序</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="../shared.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <a class="site-title" href="#main">慢慢介绍<span>个人小站</span></a>
+    <nav aria-label="页面导航">
+      <a href="#recent">近况</a>
+      <a href="#outside">日常</a>
+      <a href="#contact">联系</a>
+      <a class="all-designs" href="../designs/">全部方案 <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main" class="page-column">
+    <section class="introduction" aria-labelledby="name">
+      <p class="opening-note">你好，我是</p>
+      <h1 id="name" data-profile="name">林序</h1>
+      <p class="opening-line">这里放一点近况，也留一些日常。</p>
+      <p class="opening-bio" data-profile="about">喜欢弄明白一个东西是怎么运作的。也给阅读、散步和发呆留一点时间。</p>
+      <div class="identity-line"><span data-profile="location">中国 / UTC+8</span></div>
+      <p class="example-note"><span data-example-label>示例档案</span> · 示例姓名与文字，可以换成你自己的。</p>
+      <a class="read-on" href="#recent">往下看看 <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section id="recent" class="chapter recent-chapter" aria-labelledby="recent-heading">
+      <p class="chapter-number">一条近况</p>
+      <h2 id="recent-heading">最近在做什么？</h2>
+      <p class="current-focus" data-profile="now">整理一些旧笔记，做一个自己愿意每天使用的小工具。</p>
+    </section>
+
+    <section id="outside" class="chapter outside-chapter" aria-labelledby="outside-heading">
+      <p class="chapter-number">一些小事</p>
+      <h2 id="outside-heading">还有这些日常。</h2>
+      <div class="prose"><p>周末会带一本书出门，找个安静的地方坐一会儿。听歌没有固定的类型，偶然喜欢的一首，倒会循环很多遍。</p><p>也喜欢步行。沿着熟悉的路绕一个弯，看看平时匆忙经过的地方。</p></div>
+      <div class="little-things" aria-label="日常偏好示例"><span>纸书</span><span>步行</span><span>旧歌</span><span>自然光</span></div>
+    </section>
+
+    <section id="contact" class="chapter contact-chapter" aria-labelledby="contact-heading">
+      <p class="chapter-number">留一个入口</p>
+      <h2 id="contact-heading">如果你想联系我。</h2>
+      <div class="prose"><p>聊聊一个想法，或分享最近看过的书，都可以。</p></div>
+      <button class="contact-button" type="button" data-contact><span data-profile="email">尚未填写邮箱</span><span aria-hidden="true">↗</span></button>
+      <div class="profile-actions"><button type="button" data-edit-profile>编辑这页的小介绍</button></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p><span data-profile="name">林序</span> 的一页介绍</p><p>谢谢你花时间读到这里。</p><a href="#main">回到开头 ↑</a></footer>
+</body>
+</html>

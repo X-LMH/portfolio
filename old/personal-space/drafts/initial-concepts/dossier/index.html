@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5ef">
+  <meta name="description" content="白纸名片，一张关于林序的小小个人主页。程序员，也只是一个喜欢记录日常的人。当前为示例内容。">
+  <title>白纸名片 · 林序</title>
+  <link rel="stylesheet" href="./style.css"><script src="../shared.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="document-shell">
+    <aside class="sidebar" aria-label="个人小站导航">
+      <a class="back-link" href="../designs/"><span aria-hidden="true">↖</span> 全部设计方案</a>
+      <div class="document-mark"><span class="mark-line" aria-hidden="true"></span><span>白纸名片</span><span class="mark-number">01</span></div>
+      <div class="sidebar-intro"><p class="small-label">A SMALL PERSONAL PAGE</p><p class="sidebar-name" data-profile="name">林序</p><p class="sidebar-role" data-profile="role">后端开发者</p></div>
+      <nav class="contents" aria-label="页面目录">
+        <a href="#hello"><span>01</span> 认识一下 <span class="nav-arrow" aria-hidden="true">↗</span></a>
+        <a href="#small-things"><span>02</span> 几件小事 <span class="nav-arrow" aria-hidden="true">↗</span></a>
+        <a href="#contact"><span>03</span> 打个招呼 <span class="nav-arrow" aria-hidden="true">↗</span></a>
+      </nav>
+      <p class="side-thought">写一点代码。<br>留一点时间，<br>给代码之外的事。</p>
+      <div class="sidebar-bottom"><div class="side-location"><span class="status-dot" aria-hidden="true"></span><span data-profile="location">中国 / UTC+8</span></div><button type="button" class="edit-link" data-edit-profile>编辑这张名片 <span>↗</span></button><p class="side-footnote"><span data-example-label>示例档案</span><br>内容等你慢慢填进来。</p></div>
+    </aside>
+    <main id="main" class="personal-page">
+      <header class="masthead">
+        <div class="topline"><span>PERSONAL NOTES / NOT IN A HURRY</span><span>PAGE Nº 001</span></div>
+        <div class="name-line"><h1 data-profile="name">林序</h1><span class="sample-stamp" data-example-label>示例档案</span></div>
+        <div class="title-line"><p>写代码，也过普通的日子。</p><span>DEVELOPER &amp; A PERSON</span></div>
+      </header>
+      <section id="hello" class="section hello-section" aria-labelledby="hello-title">
+        <div class="section-heading"><h2 id="hello-title"><span class="section-number">01</span> 认识一下</h2><span class="section-en">HELLO THERE</span></div>
+        <div class="hello-layout"><p class="hello-copy" data-profile="bio">平时写 Go，对系统设计感兴趣。闲下来会看书、听歌，偶尔出去走走。这里放一些做过的项目，也留一点生活的记录。</p><div class="current-note"><span class="small-label">LATELY</span><p data-profile="now">学习 Go 的并发与事务，整理项目笔记。</p><a href="#small-things">看看最近的小事 <span>↘</span></a></div></div>
+      </section>
+      <section id="small-things" class="section things-section" aria-labelledby="things-title">
+        <div class="section-heading"><h2 id="things-title"><span class="section-number">02</span> 几件小事</h2><span class="section-en">SMALL THINGS</span></div>
+        <div class="notes-list">
+          <details class="note"><summary><span class="note-index">A.</span><div><h3>做一个自己会用的小工具</h3><p>关于代码 / 一个还在生长的想法</p></div><span class="note-toggle" aria-hidden="true"></span></summary><div class="note-body"><p>把常用的代码片段和命令收在一起，等到下次需要时，能够快一点找到。功能不多，先从「存下来，再找回来」开始。</p><p class="note-aside">这是小作品的展示示例，可以换成你最近在做的任何东西。</p></div></details>
+          <details class="note"><summary><span class="note-index">B.</span><div><h3>偶尔，离开屏幕一会儿</h3><p>关于日常 / 阅读、散步，以及一点空白</p></div><span class="note-toggle" aria-hidden="true"></span></summary><div class="note-body"><p>读几页书，换一条回家的路，或者完整听完一张专辑。有些时间不用安排得太满，想到什么，再记下来就好。</p><p class="note-aside">这里的日常也是示例。以后可以只留一句你自己的话。</p></div></details>
+        </div>
+        <p class="margin-note">不一定要很完整，值得留下来就好。</p>
+      </section>
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <div class="section-heading"><h2 id="contact-title"><span class="section-number">03</span> 打个招呼</h2><span class="section-en">SAY HELLO</span></div>
+        <div class="contact-layout"><div><p class="contact-opening">一个想法，一本书，<br>或者只是说声你好。</p><button type="button" class="email-link" data-contact><span data-profile="email">尚未填写邮箱</span><span aria-hidden="true">↗</span></button></div><p class="contact-note">邮箱还没填时，<br>点击可以补充联系方式。</p></div>
+      </section>
+      <footer class="document-footer"><span>白纸名片 / <span data-profile="name">林序</span></span><span>留白，给以后。</span><a href="#main">回到顶部 ↑</a></footer>
+    </main>
+  </div>
+</body>
+</html>

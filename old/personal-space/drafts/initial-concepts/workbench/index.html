@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111b28">
+  <title>林序 · 开发工作台</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="../shared.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <div class="workspace">
+    <header class="titlebar">
+      <a class="gallery" href="../designs/" aria-label="返回全部设计方案"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7"/></svg><span>所有方案</span></a>
+      <span class="workspace-title"><span class="window-mark">⌘</span> personal-space <span class="muted">/</span> 林序的工作区</span>
+      <button class="command-trigger" type="button" data-command-open aria-label="打开文件搜索"><span>搜索文件</span><kbd>Ctrl K</kbd></button>
+    </header>
+    <aside class="activity" aria-label="工作区工具栏">
+      <button class="activity-button active" type="button" data-toggle-explorer aria-label="显示或隐藏文件列表" title="资源管理器"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3h9l4 4v13H8zM17 3v5h4M4 7v14h11"/></svg></button>
+      <button class="activity-button" type="button" data-command-open aria-label="搜索文件" title="搜索文件"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg></button>
+      <button class="activity-button" type="button" data-open-file="projects" aria-label="打开项目" title="项目"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="7" r="2"/><circle cx="6" cy="19" r="2"/><path d="M6 7v10M8 14h4a6 6 0 0 0 6-5"/></svg></button>
+      <div class="activity-bottom"><button class="activity-button profile-icon" type="button" data-edit-profile aria-label="编辑个人档案" title="编辑档案">林</button><button class="activity-button" type="button" data-open-file="contact" aria-label="打开联系文件" title="联系我"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></button></div>
+    </aside>
+    <aside class="explorer" id="explorer">
+      <div class="explorer-label">资源管理器 <span>···</span></div>
+      <div class="folder-title"><span>⌄</span> PERSONAL-SPACE</div>
+      <nav class="file-tree" aria-label="个人档案文件">
+        <button type="button" data-open-file="about" class="file-item is-active" aria-current="page"><span class="file-symbol markdown">M↓</span>about.md <span class="file-indicator">●</span></button>
+        <button type="button" data-open-file="projects" class="file-item"><span class="file-symbol go">Go</span>projects.go <span class="file-count">3</span></button>
+        <button type="button" data-open-file="life" class="file-item"><span class="file-symbol life">✳</span>life.md</button>
+        <button type="button" data-open-file="contact" class="file-item"><span class="file-symbol text">≡</span>contact.txt</button>
+      </nav>
+      <div class="folder-title secondary-folder"><span>⌄</span> NOTES</div>
+      <p class="explorer-note">这里放做过的东西，<br>也放工作之外的自己。</p>
+      <div class="explorer-footer"><span class="tiny-dot"></span> 示例工作区<button type="button" data-edit-profile>编辑档案 ↗</button></div>
+    </aside>
+    <main class="main-editor">
+      <nav class="editor-tabs" role="tablist" aria-label="已打开文件">
+        <button id="tab-about" type="button" role="tab" aria-controls="panel-about" aria-selected="true" data-tab="about" class="editor-tab is-active"><span class="file-symbol markdown">M↓</span>about.md<span class="tab-dot"></span></button>
+        <button id="tab-projects" type="button" role="tab" aria-controls="panel-projects" aria-selected="false" tabindex="-1" data-tab="projects" class="editor-tab"><span class="file-symbol go">Go</span>projects.go</button>
+        <button id="tab-life" type="button" role="tab" aria-controls="panel-life" aria-selected="false" tabindex="-1" data-tab="life" class="editor-tab"><span class="file-symbol life">✳</span>life.md</button>
+        <button id="tab-contact" type="button" role="tab" aria-controls="panel-contact" aria-selected="false" tabindex="-1" data-tab="contact" class="editor-tab"><span class="file-symbol text">≡</span>contact.txt</button>
+      </nav>
+      <div class="breadcrumb"><span>personal-space</span><span>›</span><span id="breadcrumb-file">about.md</span><span>›</span><span class="breadcrumb-label" id="breadcrumb-label">认识一下</span><span class="preview-label">阅读模式</span></div>
+      <div class="editor-scroll">
+        <section class="file-panel about-panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" tabindex="0">
+          <div class="editor-gutter" aria-hidden="true"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span></div>
+          <div class="document">
+            <div class="frontmatter"><span>---</span><p>type: <em>personal / developer</em></p><span>---</span></div>
+            <div class="intro-meta"><span class="markdown-hash">#</span> hello, world <span class="sample-badge" data-example-label>示例档案</span></div>
+            <h1>我是 <span data-profile="name">林序</span>。<br><span class="heading-accent">欢迎来我的工作区。</span><span class="cursor" aria-hidden="true"></span></h1>
+            <p class="role" data-profile="role">一个喜欢做点小东西的后端开发者</p>
+            <p class="intro-bio" data-profile="bio">平时写 Go，对系统设计感兴趣。闲下来会看书、听歌，偶尔出去走走。这里放一些做过的项目，也留一点生活的记录。</p>
+            <div class="document-actions"><button type="button" class="primary-action" data-open-file="projects">看看小项目 <span>↗</span></button><button type="button" class="text-action" data-open-file="life">屏幕之外 ↗</button></div>
+            <div class="section-rule"><span>## 最近的一个念头</span><span>02</span></div>
+            <div class="inline-note"><span>↳</span><div><b>正在做</b><p data-profile="now">学习 Go 的并发与事务，整理最近的项目笔记。</p></div></div>
+            <p class="document-end"><span>--</span> 持续更新中，像一个永远有下一次提交的小项目。</p>
+          </div>
+        </section>
+        <section class="file-panel" id="panel-projects" role="tabpanel" aria-labelledby="tab-projects" tabindex="0" hidden>
+          <div class="document project-document"><div class="code-comment">// small things · 作品展示示例</div><div class="intro-meta"><span class="file-symbol go">Go</span> projects.go</div><h2>一些小东西，<br><span class="heading-accent">慢慢做出来。</span></h2><p class="panel-description">不需要很大的起点。选择一个条目，看看它想解决什么小问题。</p>
+          <div class="project-workspace"><div class="project-list" role="tablist" aria-label="示例项目">
+            <button type="button" role="tab" id="project-tab-daily" aria-controls="project-detail" aria-selected="true" data-project="daily" class="project-choice is-active"><span class="project-index">01</span><span><b>轻舟</b><small>日常管理工具</small></span><span class="project-arrow">↗</span></button>
+            <button type="button" role="tab" id="project-tab-snippet" aria-controls="project-detail" aria-selected="false" data-project="snippet" class="project-choice"><span class="project-index">02</span><span><b>Snippet</b><small>代码片段库</small></span><span class="project-arrow">↗</span></button>
+            <button type="button" role="tab" id="project-tab-moments" aria-controls="project-detail" aria-selected="false" data-project="moments" class="project-choice"><span class="project-index">03</span><span><b>此刻</b><small>阅读与记录</small></span><span class="project-arrow">↗</span></button>
+          </div><article id="project-detail" class="project-detail" role="tabpanel" aria-labelledby="project-tab-daily" aria-live="polite"></article></div>
+          <p class="file-footnote">条目是示例，可以换成自己的小工具、笔记或还没完成的想法。</p></div>
+        </section>
+        <section class="file-panel" id="panel-life" role="tabpanel" aria-labelledby="tab-life" tabindex="0" hidden>
+          <div class="document life-document"><div class="code-comment">// the person behind the keyboard</div><div class="intro-meta"><span class="markdown-hash">#</span> outside the editor</div><h2>离开屏幕，<br><span class="heading-accent">也有值得记录的事。</span></h2><p class="panel-description">不是每件事都需要产出。保留一点时间，做让自己感到轻松的事。</p>
+          <div class="life-entry"><span class="life-index">01 / READING</span><div><h3>给阅读留一点空白</h3><p>不急着把每一本书都变成笔记。有时候，记住一个句子，或者一个新的问题，就已经很好。</p><span class="life-tag">书页 · 随手摘录</span></div></div>
+          <div class="life-entry"><span class="life-index">02 / WALKING</span><div><h3>不带目的地走走</h3><p>换一条回家的路，看看傍晚的光。比起打卡，更喜欢那些没被计划到的小发现。</p><span class="life-tag">散步 · 城市边角</span></div></div>
+          <div class="life-entry"><span class="life-index">03 / LISTENING</span><div><h3>一首歌的时间</h3><p>写代码时的背景音乐，或者睡前听完的一张专辑。音乐让普通的一天有了自己的节奏。</p><span class="life-tag">音乐 · 日常片段</span></div></div><p class="file-footnote">生活记录同样是示例内容，可以换成你自己的兴趣。</p></div>
+        </section>
+        <section class="file-panel" id="panel-contact" role="tabpanel" aria-labelledby="tab-contact" tabindex="0" hidden>
+          <div class="document contact-document"><div class="code-comment">// say hello</div><div class="intro-meta"><span class="markdown-hash">#</span> 开放一个新的对话</div><h2>从一句<br><span class="heading-accent">「你好」开始。</span></h2><p class="panel-description">聊技术，聊一个想做的东西，或者只是交换最近看到的好书。</p><div class="contact-lines"><div><span>name</span><strong data-profile="name">林序</strong></div><div><span>location</span><strong data-profile="location">中国 · 远程友好</strong></div><div><span>email</span><strong data-profile="email">尚未填写邮箱</strong></div></div><div class="document-actions"><button type="button" class="primary-action" data-send-email>写一封邮件 <span>↗</span></button><button type="button" class="text-action" data-edit-profile>编辑联系方式</button></div><p class="contact-note">示例档案暂未填写邮箱。点击「编辑联系方式」保存后，即可通过邮箱发起联系。</p><div class="signature"><span>thanks for stopping by.</span><span>愿下一次对话，带来新的可能。</span></div></div>
+        </section>
+      </div>
+    </main>
+    <aside class="outline">
+      <div class="outline-heading">README <span>↗</span></div>
+      <div class="identity"><div class="avatar-mark">lx<span>_</span></div><h3 data-profile="name">林序</h3><p>developer & a person</p></div>
+      <div class="outline-rule"></div><span class="aside-kicker">这个工作区里</span>
+      <nav class="outline-nav" aria-label="快速跳转"><button type="button" data-open-file="about"><span>01</span>认识一下 <b>↗</b></button><button type="button" data-open-file="projects"><span>02</span>项目与实践 <b>↗</b></button><button type="button" data-open-file="life"><span>03</span>屏幕之外 <b>↗</b></button><button type="button" data-open-file="contact"><span>04</span>联系我 <b>↗</b></button></nav>
+      <div class="aside-note"><span class="tiny-dot"></span><p>代码解决问题。<br>生活提供问题。</p></div>
+      <span class="aside-kicker current-label">OPEN A FILE</span><p class="focus-copy">四个小文件，<br>随意打开一个就好。</p>
+      <div class="aside-bottom">随便翻翻，<br>就当来我的桌边坐坐。<span>WORKSPACE / 02</span></div>
+    </aside>
+    <footer class="statusbar"><div><span class="branch-icon">⑂</span> main <span class="status-divider">|</span><span class="status-check">✓</span> all ideas welcome</div><div><span class="status-location" data-profile="location">中国 · 远程友好</span><span id="file-format">Markdown</span><span>UTF-8</span><span class="status-version">示例档案</span></div></footer>
+  </div>
+  <dialog class="command-dialog" id="command-palette"><div class="command-input-row"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><input id="command-search" type="search" placeholder="输入文件名或内容…" aria-label="搜索工作区文件" autocomplete="off"><button class="escape-button" type="button" data-command-close>Esc</button></div><p class="command-caption">跳转到文件</p><div class="command-results"><button type="button" data-open-file="about"><span class="file-symbol markdown">M↓</span><span>about.md<small>认识一下 · 关于我</small></span><span>↵</span></button><button type="button" data-open-file="projects"><span class="file-symbol go">Go</span><span>projects.go<small>项目 · 轻舟 · Snippet · 此刻</small></span><span>↵</span></button><button type="button" data-open-file="life"><span class="file-symbol life">✳</span><span>life.md<small>阅读 · 散步 · 音乐</small></span><span>↵</span></button><button type="button" data-open-file="contact"><span class="file-symbol text">≡</span><span>contact.txt<small>邮箱 · 联系方式</small></span><span>↵</span></button></div><p class="command-empty" hidden>没有匹配的文件，试试「项目」或「about」。</p><div class="command-footer">搜索与阅读，欢迎随意探索。</div></dialog>
+</body>
+</html>

@@ -1,0 +1,104 @@
+[
+  {
+    "size": 1280,
+    "navLinks": 6,
+    "overflow": false,
+    "visibleStudies": 6
+  },
+  {
+    "size": 1366,
+    "navLinks": 6,
+    "overflow": false,
+    "visibleStudies": 6
+  },
+  {
+    "size": 1920,
+    "navLinks": 6,
+    "overflow": false,
+    "visibleStudies": 6
+  },
+  {
+    "skin": "anime-glass",
+    "hash": "#fusion-anime-glass",
+    "images": [
+      {
+        "complete": true,
+        "width": 1366
+      },
+      {
+        "complete": true,
+        "width": 1366
+      }
+    ]
+  },
+  {
+    "skin": "future-glass",
+    "hash": "#fusion-future-glass",
+    "images": [
+      {
+        "complete": true,
+        "width": 1366
+      },
+      {
+        "complete": true,
+        "width": 1366
+      }
+    ]
+  },
+  {
+    "skin": "anime-future",
+    "hash": "#fusion-anime-future",
+    "images": [
+      {
+        "complete": true,
+        "width": 1366
+      },
+      {
+        "complete": true,
+        "width": 1366
+      }
+    ]
+  },
+  {
+    "skin": "anime",
+    "hash": "#fusion-anime",
+    "images": [
+      {
+        "complete": true,
+        "width": 1366
+      },
+      {
+        "complete": true,
+        "width": 1366
+      }
+    ]
+  },
+  {
+    "skin": "future",
+    "hash": "#fusion-future",
+    "images": [
+      {
+        "complete": true,
+        "width": 1366
+      },
+      {
+        "complete": true,
+        "width": 1366
+      }
+    ]
+  },
+  {
+    "skin": "glass",
+    "hash": "#fusion-glass",
+    "images": [
+      {
+        "complete": true,
+        "width": 1366
+      },
+      {
+        "complete": true,
+        "width": 1366
+      }
+    ]
+  }
+]

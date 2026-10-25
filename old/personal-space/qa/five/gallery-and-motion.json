@@ -1,0 +1,62 @@
+{
+  "reducedChecks": [
+    {
+      "animation": [],
+      "name": "anime-minimal",
+      "revealHidden": false
+    },
+    {
+      "animation": [
+        "0s"
+      ],
+      "name": "ios-glass",
+      "revealHidden": false
+    },
+    {
+      "animation": [],
+      "name": "japan-tech",
+      "revealHidden": false
+    },
+    {
+      "animation": [
+        "0s"
+      ],
+      "name": "anime-future",
+      "revealHidden": false
+    },
+    {
+      "animation": [],
+      "name": "apple-minimal",
+      "revealHidden": false
+    }
+  ],
+  "gallery": [
+    {
+      "images": 10,
+      "overflow": false,
+      "schemes": 5,
+      "size": [
+        1280,
+        800
+      ]
+    },
+    {
+      "images": 10,
+      "overflow": false,
+      "schemes": 5,
+      "size": [
+        1366,
+        768
+      ]
+    },
+    {
+      "images": 10,
+      "overflow": false,
+      "schemes": 5,
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  ]
+}

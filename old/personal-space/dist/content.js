@@ -1,0 +1,31 @@
+'use strict';
+window.SiteContent={entries:{
+      walk: {
+        kind: '日常 / 散步',
+        title: '换一条路回家',
+        paragraphs: [
+          '出门时本来打算走熟悉的路，到了路口又临时拐了弯。那条路稍微远一点，不过天还没黑，也没有什么着急回去的事。',
+          '路边有一家很小的旧书店。进去转了一圈，没有买书，只看了看架子上那些有些褪色的书脊。老板坐在门边，正在给花浇水。',
+          '回家后发现，比平时晚了十来分钟。好像也没耽误什么。下次有空，可以再换一条路。'
+        ]
+      },
+      book: {
+        kind: '阅读 / 随手记',
+        title: '书签还夹在那一页',
+        paragraphs: [
+          '整理书桌时，翻到一本读了一半的书。书签还夹在原来的地方，但前面讲了什么，已经有点想不起来了。',
+          '于是往前翻了几页，找到当时画线的一句话。这次再读，注意到的又是另外一个地方。可能最近遇到的事不一样，读起来的感觉也变了。',
+          '没有给自己定读完的时间。书就放在桌角，哪天想起来，再读几页。'
+        ]
+      },
+      tool: {
+        kind: '手记 / 一个小工具',
+        title: '给小工具补一句说明',
+        paragraphs: [
+          '之前写了个整理文件的小脚本。功能很简单，写完时觉得没什么需要解释的。隔了几周再用，却忘了哪个参数必须填。',
+          '后来补了三个例子：最普通的用法、只看预览的用法，还有遇到重名文件时会怎样。没有写很长的文档，只把刚刚疑惑过的地方记下来。',
+          '说明不一定只是写给别人。有时候，未来的自己也需要一句提醒。'
+        ]
+      }
+    },moments:[{date:'10.20',title:'书桌整理了一半。',text:'找到一张夹在笔记本里的旧车票。想不起来是哪一天的，先留下来。',tag:'日常'},{date:'10.16',title:'傍晚出去走了一会儿。',text:'没有特意拍照。天暗下来的时候，路灯刚好亮了。',tag:'散步'},{date:'10.09',title:'最近循环的一首歌。',text:'也没有什么特别的原因，就是觉得适合今天。',tag:'音乐'}]};
+(()=>{const entries=window.SiteContent.entries;const excerpts={walk:'沿着平时不走的那条小路，多走了十分钟。发现一家旧书店，也看到一棵已经开始落叶的树。',book:'有本书读到一半放下了。再打开时，先往前翻了几页。慢一点也没关系。',tool:'重新打开自己写的脚本，居然也要想一会儿怎么用。于是给它补了一份很短的说明。'};for(const [key,entry] of Object.entries(entries)){entry.excerpt=excerpts[key];entry.opening=entry.paragraphs[0];}document.querySelectorAll('[data-entry][data-field]').forEach(node=>{node.textContent=entries[node.dataset.entry]?.[node.dataset.field]||'';});document.querySelectorAll('[data-moment][data-field]').forEach(node=>{node.textContent=window.SiteContent.moments[Number(node.dataset.moment)]?.[node.dataset.field]||'';});})();

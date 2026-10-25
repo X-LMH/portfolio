@@ -1,0 +1,1 @@
+(()=>{'use strict';const legacy=new URLSearchParams(location.search).get('theme');const routes={paper:'dossier/',terminal:'workbench/',swiss:'index-studio/',glass:'journal/',anime:'anime/'};if(routes[legacy])location.replace(new URL('/'+routes[legacy],location.origin).href);})();

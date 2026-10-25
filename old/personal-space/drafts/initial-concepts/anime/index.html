@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#edf2e6">
+  <meta name="description" content="放课后，一间关于阅读、散步与生活碎片的小小部室。个人网站设计示例。">
+  <title>放课后 — 林序的个人小站</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="../shared.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="site-shell">
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="放课后首页"><span class="wordmark-flower" aria-hidden="true">✳</span><span>放课后<small>AFTER HOURS / 個人部室</small></span></a>
+      <nav class="main-nav" aria-label="页面导航"><a href="#journal">手记</a><a href="#projects">收藏柜</a><a href="#contact">联络</a></nav>
+      <a class="gallery-link" href="../designs/">← 设计集 <span>05</span></a>
+    </header>
+
+    <div class="welcome-line"><span>ようこそ、私の小さな部屋へ。</span><p>收集生活里不起眼、却舍不得忘记的小事。</p><span class="online-dot">小站营业中</span></div>
+
+    <div class="room-layout">
+      <aside class="profile-column" aria-label="个人档案">
+        <section class="profile-card">
+          <div class="card-punches" aria-hidden="true"><i></i><i></i></div>
+          <div class="profile-card-label"><span>部員証</span><span>No. 001</span></div>
+          <div class="profile-emblem" aria-hidden="true"><span class="orbit one">✧</span><span class="emblem-name">序</span><span class="orbit two">✧</span><span class="emblem-small">PERSONAL CLUB</span></div>
+          <div class="profile-name"><h1 data-profile="name">林序</h1><span>LIN XU</span></div>
+          <p class="profile-role" data-profile="role">后端开发者 · 持续学习中</p>
+          <div class="profile-rule"></div>
+          <p class="profile-about" data-profile="about">喜欢把复杂的问题拆小，再一点点搭建成可以使用的东西。工作之外，会看书、散步，偶尔整理一些无用但有趣的小发现。</p>
+          <dl class="profile-facts"><div><dt>坐标</dt><dd data-profile="location">中国 · 远程友好</dd></div><div><dt>关键词</dt><dd>散步 / 纸笔 / 好奇心</dd></div></dl>
+          <button class="profile-edit" type="button" data-edit-profile>编辑我的部员证 <span aria-hidden="true">↗</span></button>
+          <span class="sample-label" data-example-label>示例档案</span>
+        </section>
+        <section class="small-notice" aria-label="小站说明"><span class="notice-pin" aria-hidden="true">✳</span><h2>关于这间小站</h2><p>没有宏大的宣言。<br>留下一些做过的事，<br>也给下一次见面留个入口。</p><span class="handwriting">请随意翻阅 →</span></section>
+      </aside>
+
+      <main id="main" class="notebook">
+        <section class="intro-note" aria-labelledby="intro-heading">
+          <div class="note-eyebrow"><span>PAGE 01 — はじめまして</span><span class="red-stamp">个人小站</span></div>
+          <h2 id="intro-heading">生活的碎片，<br>也值得<span>收藏。</span></h2>
+          <p class="intro-bio" data-profile="bio">你好，我是林序。一名喜欢后端开发，也喜欢观察生活的普通人。这是我的作品柜、学习笔记和不定期更新的日常。</p>
+          <div class="current-line"><span class="current-icon" aria-hidden="true">↳</span><span class="current-label">最近在做</span><p data-profile="now">用 Go 写一些小工具，顺便把读过的源码整理成笔记。</p></div>
+        </section>
+
+        <section class="journal-section" id="journal" aria-labelledby="journal-heading">
+          <div class="section-heading"><div><span class="section-no">01</span><h2 id="journal-heading">翻开手记</h2><span class="heading-jp">日々のメモ</span></div><span class="entry-count" aria-live="polite">04 ENTRIES</span></div>
+          <div class="journal-filters" role="group" aria-label="筛选手记"><button type="button" class="is-active" data-journal-filter="all" aria-pressed="true">全部 <span>4</span></button><button type="button" data-journal-filter="tech" aria-pressed="false">技术笔记 <span>2</span></button><button type="button" data-journal-filter="life" aria-pressed="false">日常片段 <span>2</span></button><span class="journal-demo">内容示例</span></div>
+          <div class="journal-list">
+            <article class="journal-entry" data-category="life"><div class="entry-date"><span>10</span><strong>18</strong><small>NOTE 04</small></div><div class="entry-content"><div class="entry-category is-life">LIFE / WALK</div><h3>把周末留一点给没有目的的路。</h3><p>不听播客，不记录步数。沿着树荫走到一家没去过的书店。</p><details><summary>展开这页 <span aria-hidden="true">＋</span></summary><div class="entry-expanded"><p>平时总习惯给时间安排任务，这次只带了一本读到一半的书。走累了就坐下，读不进去就看看窗外。</p><p>没有特别的收获，也算一个不错的下午。</p><span>日常片段 · 示例内容</span></div></details></div><span class="entry-doodle flower-doodle" aria-hidden="true">✿</span></article>
+            <article class="journal-entry" data-category="life"><div class="entry-date"><span>10</span><strong>12</strong><small>NOTE 03</small></div><div class="entry-content"><div class="entry-category is-life">LIFE / READING</div><h3>留几页空白，也留一点好奇心。</h3><p>最近开始用纸笔记下不急着搜索答案的问题。</p><details><summary>展开这页 <span aria-hidden="true">＋</span></summary><div class="entry-expanded"><p>有些问题值得先带在身边。一本书里遇到的表达、一条路为什么这样命名、一个设计为什么让人觉得顺手。</p><p>记下来，再挑一个周末，慢慢查资料。学习偶尔也可以没有进度条。</p><span>阅读片段 · 示例内容</span></div></details></div><span class="entry-doodle book-doodle" aria-hidden="true">▤</span></article>
+            <article class="journal-entry" data-category="tech"><div class="entry-date"><span>10</span><strong>06</strong><small>NOTE 02</small></div><div class="entry-content"><div class="entry-category">LEARNING / GO</div><h3>小工具，也值得被认真完成。</h3><p>把重复工作交给一段脚本，也把使用说明留给未来的自己。</p><details><summary>展开这页 <span aria-hidden="true">＋</span></summary><div class="entry-expanded"><p>最近给一个命令行工具补上了超时、错误提示和一份简短的 README。功能并没有变多，但它终于从“能跑”变成了“下次还愿意用”。</p><p>我想继续练习的，是先把一个很小的问题完整解决，再增加下一个功能。</p><span>学习记录 · 示例内容</span></div></details></div></article>
+            <article class="journal-entry" data-category="tech"><div class="entry-date"><span>09</span><strong>28</strong><small>NOTE 01</small></div><div class="entry-content"><div class="entry-category">LEARNING / BACKEND</div><h3>接口返回之前，事情真的做完了吗？</h3><p>从一次重复请求开始，整理事务与幂等的边界。</p><details><summary>展开这页 <span aria-hidden="true">＋</span></summary><div class="entry-expanded"><p>用户重复点击、网络重试和消息重复投递，最终都会变成同一个问题：同一件业务能否安全地再执行一次？</p><p>这页笔记先画清业务状态，再分别记录唯一约束、事务和重试各自负责什么。源码与案例还在慢慢补充。</p><span>学习记录 · 示例内容</span></div></details></div></article>
+          </div>
+          <p class="journal-end"><span aria-hidden="true">✧</span> 暂时写到这里，下次见。</p>
+        </section>
+
+        <section class="projects-section" id="projects" aria-labelledby="projects-heading">
+          <div class="section-heading"><div><span class="section-no">02</span><h2 id="projects-heading">我的收藏柜</h2><span class="heading-jp">好きなもの</span></div><span class="section-side-note">一点记录，一点喜欢</span></div>
+          <div class="project-strips">
+            <details class="project-strip"><summary><span class="project-art art-one" aria-hidden="true"><span>歩</span><small>WALKING MAP</small></span><span class="project-summary"><span class="project-type">01 / CITY WALKS</span><strong>散步备忘录</strong><span>有树荫的小路，和愿意再去的街角。</span><span class="project-tags">城市漫游 · 手绘地图</span></span><span class="strip-arrow" aria-hidden="true">↗</span></summary><div class="project-detail"><p>不以打卡为目标，只记下想再走一次的路线：河边的长椅、午后安静的街区，还有一家可以坐很久的旧书店。</p><p class="project-demo-note">示例收藏，可替换为你的路线、照片或旅行记忆。</p></div></details>
+            <details class="project-strip"><summary><span class="project-art art-two" aria-hidden="true"><span>日</span><small>DAILY JOURNAL</small></span><span class="project-summary"><span class="project-type">02 / EVERYDAY NOTES</span><strong>慢慢记</strong><span>一处轻量、安静的个人记录空间。</span><span class="project-tags">手帐 · 天气 · 日常小事</span></span><span class="strip-arrow" aria-hidden="true">↗</span></summary><div class="project-detail"><p>给每周留一小页。不一定发生了什么大事，也可以只是一顿做得不错的晚饭、一句偶然听见的话，或是窗台上新长的叶子。</p><p class="project-demo-note">示例记录，可替换为你的日常、手作或个人作品。</p></div></details>
+            <details class="project-strip"><summary><span class="project-art art-three" aria-hidden="true"><span>読</span><small>READING LOG</small></span><span class="project-summary"><span class="project-type">03 / READING SHELF</span><strong>读到这里</strong><span>读完的、读一半的，都在这层书架。</span><span class="project-tags">阅读清单 · 摘记 · 书签</span></span><span class="strip-arrow" aria-hidden="true">↗</span></summary><div class="project-detail"><p>比起给一本书评分，更想记住读到它的那个时刻。这里只放简短感想和带着问题写下的页码，偶尔回来翻一翻。</p><p class="project-demo-note">示例书架，可替换为你的书单、影单或音乐收藏。</p></div></details>
+          </div>
+        </section>
+
+        <section class="contact-note" id="contact" aria-labelledby="contact-heading"><span class="letter-mark" aria-hidden="true">〒</span><div><span class="contact-eyebrow">LEAVE A LITTLE HELLO</span><h2 id="contact-heading">有空，来聊两句。</h2><p>关于一本好书，一条小路，或最近喜欢的事。</p><button type="button" class="contact-email" data-contact><span data-profile="email">尚未填写邮箱</span></button><small>点击邮箱联系；尚未填写时，可先编辑档案。</small></div></section>
+      </main>
+
+      <aside class="room-rail" aria-label="兴趣与日常">
+        <div class="rail-tab">部室だより</div>
+        <section class="today-card"><span class="rail-eyebrow">DESK STATUS</span><h2>今日的桌面</h2><div class="desk-cup" aria-hidden="true"><span>≈</span><i></i><b></b></div><p>一本翻开的书，<br>一杯还温着的茶。</p><span class="desk-caption">take your time.</span></section>
+        <section class="skill-note"><span class="rail-eyebrow">IN MY BAG</span><h2>随身物件</h2><ul><li><span>01</span> 小小的笔记本</li><li><span>02</span> 一本没读完的书</li><li><span>03</span> 耳机与旧歌单</li><li><span>04</span> 随时转弯的心情</li></ul><p>不赶时间的时候，<br>就绕一点远路。</p></section>
+        <section class="like-note"><span class="rail-eyebrow">SMALL FAVORITES</span><h2>一些偏爱</h2><div class="favorite-tokens"><span>纸质书</span><span>老歌</span><span>雨后散步</span><span>窗边的位置</span></div></section>
+        <div class="rail-stamp" aria-hidden="true"><span>日々是好日</span><small>AFTER HOURS</small></div>
+      </aside>
+    </div>
+
+    <footer class="site-footer"><a class="footer-mark" href="#">放课后 <span>✳</span></a><p>按自己的步调，过普通但喜欢的日子。</p><span>DESIGN 05 / 示例个人小站</span><a href="../designs/">返回设计集 ↗</a></footer>
+  </div>
+</body>
+</html>

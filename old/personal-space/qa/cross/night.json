@@ -1,0 +1,146 @@
+[
+  {
+    "skin": "anime-glass",
+    "section": "home",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime-glass",
+    "section": "articles",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime-glass",
+    "section": "moments",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime-glass",
+    "section": "about",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "future-glass",
+    "section": "home",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "future-glass",
+    "section": "articles",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "future-glass",
+    "section": "moments",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "future-glass",
+    "section": "about",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime-future",
+    "section": "home",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime-future",
+    "section": "articles",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime-future",
+    "section": "moments",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime-future",
+    "section": "about",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime",
+    "section": "home",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime",
+    "section": "articles",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime",
+    "section": "moments",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "anime",
+    "section": "about",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "future",
+    "section": "home",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "future",
+    "section": "articles",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "future",
+    "section": "moments",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "future",
+    "section": "about",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "glass",
+    "section": "home",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "glass",
+    "section": "articles",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "glass",
+    "section": "moments",
+    "color": "dark",
+    "overflow": false
+  },
+  {
+    "skin": "glass",
+    "section": "about",
+    "color": "dark",
+    "overflow": false
+  }
+]

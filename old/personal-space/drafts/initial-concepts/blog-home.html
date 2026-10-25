@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f9">
+  <meta name="description" content="一个轻量的个人小站，记一点日常、阅读与偶尔的开发手记。当前作者和文章均为示例内容。">
+  <title>林序的小站</title>
+  <link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="home.css">
+  <script src="shared.js" defer></script><script src="home.js" defer></script>
+<script src="gallery.js" defer></script></head>
+<body>
+  <a class="skip-link" href="#main">跳到文章</a>
+  <div class="blog-shell">
+    <aside class="profile-sidebar" aria-label="作者与分类">
+      <a class="profile-home" href="./" aria-label="回到小站首页"><span class="avatar" aria-hidden="true">序<span>。</span></span><span class="author-name" data-profile="name">林序</span></a>
+      <p class="author-motto">写一点，留一点。</p>
+      <p class="sidebar-location" data-profile="location">中国 / UTC+8</p>
+      <div class="sidebar-divider"></div>
+      <div class="category-heading">分类 <span>CATEGORIES</span></div>
+      <nav class="category-nav" aria-label="按文章分类筛选">
+        <button type="button" data-category="all" aria-pressed="true">全部记录 <span>04</span></button>
+        <button type="button" data-category="life" aria-pressed="false">日常 <span>02</span></button>
+        <button type="button" data-category="reading" aria-pressed="false">阅读 <span>01</span></button>
+        <button type="button" data-category="tech" aria-pressed="false">手记 <span>01</span></button>
+      </nav>
+      <div class="sidebar-note"><span class="note-dot" aria-hidden="true"></span><p>不定期更新。<br>想到什么，就记下来。</p></div>
+      <div class="sidebar-bottom"><span data-example-label>示例档案</span><button type="button" data-edit-profile>编辑个人资料 ↗</button></div>
+    </aside>
+    <div class="reading-column">
+      <header class="site-header"><nav class="main-nav" aria-label="主导航"><button type="button" data-view="home" aria-current="page">首页</button><button type="button" data-view="essays">随笔</button><button type="button" data-view="archive">归档</button><button type="button" data-about>关于</button></nav><a class="design-link" href="designs/">设计集 <span>06 ↗</span></a></header>
+      <main id="main">
+        <div class="page-heading"><div><p class="page-eyebrow" id="page-eyebrow">PERSONAL NOTES</p><h1 id="page-title">最近写下的</h1></div><form class="search-form" role="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><input id="article-search" type="search" aria-label="搜索文章" placeholder="搜索文章" autocomplete="off"><button type="button" class="search-clear" aria-label="清空搜索" hidden>×</button></form></div>
+        <div class="feed-caption"><span id="result-count" aria-live="polite">4 篇记录</span><span>作者与文章均为示例内容</span></div>
+        <section id="feed-view" aria-label="文章列表"><div id="article-feed"></div></section>
+        <section id="archive-view" aria-label="文章归档" hidden><div class="archive-year"><h2>2026</h2><span id="archive-count">4 篇</span></div><div id="archive-list"></div><p class="archive-note">慢慢积累，偶尔回头看看。</p></section>
+        <div class="empty-state" id="empty-state" hidden><p>没有找到匹配的记录。</p><button type="button" data-reset>清除搜索与筛选</button></div>
+      </main>
+      <footer class="site-footer"><p>© 2026 <span data-profile="name">林序</span><span class="footer-dot">·</span>一个小小的个人站点</p><div><button type="button" data-contact>联系我</button><span>内容为示例</span></div></footer>
+    </div>
+  </div>
+  <dialog class="article-dialog" id="article-reader" aria-labelledby="reader-title"><div class="reader-topline"><span>READING NOTES</span><button type="button" class="dialog-close" data-close-reader aria-label="关闭文章">×</button></div><div class="reader-meta" id="reader-meta"></div><h2 id="reader-title"></h2><div class="reader-content" id="reader-content"></div><div class="reader-bottom"><span>此篇为示例文字，可替换为自己的记录。</span><button type="button" data-close-reader>读完了，返回列表 ↩</button></div></dialog>
+  <dialog class="about-dialog" id="about-dialog" aria-labelledby="about-title"><div class="reader-topline"><span>ABOUT THIS LITTLE PLACE</span><button type="button" class="dialog-close" data-close-about aria-label="关闭关于">×</button></div><h2 id="about-title">你好，我是<span data-profile="name">林序</span>。</h2><div class="about-lines"><p>写代码，也喜欢散步和读书。</p><p>这里留给日常、阅读，以及偶尔的开发手记。</p><p>目前都是示例文字，等真实记录慢慢补上。</p></div><button type="button" class="about-contact" data-contact>打个招呼 <span>↗</span></button></dialog>
+</body>
+</html>

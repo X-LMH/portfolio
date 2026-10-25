@@ -1,0 +1,101 @@
+[
+  {
+    "newImages": [
+      {
+        "loaded": true,
+        "src": "/previews/blog-home.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/blog-content.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/poster-home.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/poster-content.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/cinema-home.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/cinema-content.webp"
+      }
+    ],
+    "overflow": false,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "newImages": [
+      {
+        "loaded": true,
+        "src": "/previews/blog-home.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/blog-content.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/poster-home.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/poster-content.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/cinema-home.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/cinema-content.webp"
+      }
+    ],
+    "overflow": false,
+    "size": [
+      1366,
+      768
+    ]
+  },
+  {
+    "newImages": [
+      {
+        "loaded": true,
+        "src": "/previews/blog-home.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/blog-content.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/poster-home.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/poster-content.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/cinema-home.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/previews/cinema-content.webp"
+      }
+    ],
+    "overflow": false,
+    "size": [
+      1920,
+      1080
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "fiveModes": [
+    {
+      "color": "dark",
+      "hash": "#writing",
+      "ink": "rgb(232, 227, 237)",
+      "name": "anime-minimal",
+      "reader": "rgb(40, 42, 52)",
+      "keyboardPaused": true,
+      "emptyEmailOpensEditor": true
+    },
+    {
+      "color": "dark",
+      "hash": "#reading",
+      "ink": "rgb(229, 237, 248)",
+      "name": "ios-glass",
+      "reader": "color(srgb 0.160784 0.215686 0.301961 / 0.9)",
+      "keyboardPaused": true,
+      "emptyEmailOpensEditor": true
+    },
+    {
+      "color": "dark",
+      "hash": "#records",
+      "ink": "rgb(220, 239, 237)",
+      "name": "japan-tech",
+      "reader": "rgb(28, 46, 50)",
+      "keyboardPaused": true,
+      "emptyEmailOpensEditor": true
+    },
+    {
+      "color": "dark",
+      "hash": "#writing",
+      "ink": "rgb(220, 232, 250)",
+      "name": "anime-future",
+      "reader": "rgb(32, 46, 67)",
+      "keyboardPaused": true,
+      "emptyEmailOpensEditor": true
+    },
+    {
+      "color": "dark",
+      "hash": "#story",
+      "ink": "rgb(238, 238, 240)",
+      "name": "apple-minimal",
+      "reader": "rgb(29, 31, 33)",
+      "keyboardPaused": true,
+      "emptyEmailOpensEditor": true
+    }
+  ],
+  "fiveProfiles": [
+    {
+      "about": 400,
+      "name": "anime-minimal",
+      "overflow": false,
+      "profile": 24,
+      "editorAccessible": true
+    },
+    {
+      "about": 400,
+      "name": "ios-glass",
+      "overflow": false,
+      "profile": 24,
+      "editorAccessible": true
+    },
+    {
+      "about": 400,
+      "name": "japan-tech",
+      "overflow": false,
+      "profile": 24,
+      "editorAccessible": true
+    },
+    {
+      "about": 400,
+      "name": "anime-future",
+      "overflow": false,
+      "profile": 24,
+      "editorAccessible": true
+    },
+    {
+      "about": 400,
+      "name": "apple-minimal",
+      "overflow": false,
+      "profile": 24,
+      "editorAccessible": true
+    }
+  ],
+  "fiveHistory": [
+    {
+      "name": "ios-glass",
+      "afterClick": "#reading",
+      "back": "#overview",
+      "forward": "#reading",
+      "keyboard": "#moments",
+      "reload": {
+        "hash": "#moments",
+        "inactive": true,
+        "visible": 1
+      },
+      "invalidFallback": "#overview"
+    },
+    {
+      "name": "anime-future",
+      "afterClick": "#writing",
+      "back": "#signal",
+      "forward": "#writing",
+      "keyboard": "#moments",
+      "reload": {
+        "hash": "#moments",
+        "inactive": true,
+        "visible": 1
+      },
+      "invalidFallback": "#signal"
+    }
+  ],
+  "filterResult": {
+    "count": "1 篇文字",
+    "visible": [
+      "reading"
+    ]
+  },
+  "motionResult": {
+    "enabled": true,
+    "transition": "0.32s, 0.32s",
+    "visible": 2
+  }
+}

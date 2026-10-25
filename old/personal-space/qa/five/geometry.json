@@ -1,0 +1,1551 @@
+{
+  "views": [
+    {
+      "frameOutside": false,
+      "id": "hello",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 0,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "writing",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 30,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "little",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 30,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "letter",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 303,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "overview",
+      "internalScroll": false,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 182,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "reading",
+      "internalScroll": true,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 182,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "moments",
+      "internalScroll": false,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 182,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "contact",
+      "internalScroll": false,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 182,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "intro",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 0,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "records",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 25,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "notes",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 126,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "contact",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 499,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "signal",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 96,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "writing",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 96,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "moments",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 96,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "contact",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 96,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "start",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 0,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "story",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 95,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "notes",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 100,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "hello",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1280,
+        800
+      ],
+      "top": 129,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "hello",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 0,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "writing",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 30,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "little",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 30,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "letter",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 271,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "overview",
+      "internalScroll": false,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 183,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "reading",
+      "internalScroll": true,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 183,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "moments",
+      "internalScroll": true,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 183,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "contact",
+      "internalScroll": true,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 183,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "intro",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 0,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "records",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 25,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "notes",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 94,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "contact",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 467,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "signal",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 81,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "writing",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 81,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "moments",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 81,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "contact",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 81,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "start",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 0,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "story",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 95,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "notes",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 100,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "hello",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1366,
+        768
+      ],
+      "top": 100,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "hello",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 0,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "writing",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 30,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "little",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 132,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "letter",
+      "internalScroll": false,
+      "name": "anime-minimal",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 583,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "overview",
+      "internalScroll": false,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 234,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "reading",
+      "internalScroll": false,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 234,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "moments",
+      "internalScroll": false,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 234,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "contact",
+      "internalScroll": false,
+      "name": "ios-glass",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 234,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "intro",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 0,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "records",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 25,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "notes",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 430,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "contact",
+      "internalScroll": false,
+      "name": "japan-tech",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 779,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "signal",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 96,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "writing",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 96,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "moments",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 96,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "contact",
+      "internalScroll": false,
+      "name": "anime-future",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 96,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "start",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 0,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "story",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 95,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "notes",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 100,
+      "wide": []
+    },
+    {
+      "frameOutside": false,
+      "id": "hello",
+      "internalScroll": false,
+      "name": "apple-minimal",
+      "overflow": false,
+      "size": [
+        1920,
+        1080
+      ],
+      "top": 409,
+      "wide": []
+    }
+  ],
+  "readers": [
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "anime-minimal",
+      "open": true,
+      "rect": [
+        272.5,
+        154.015625,
+        992.5,
+        645.96875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "anime-minimal",
+      "open": true,
+      "rect": [
+        272.5,
+        154.015625,
+        992.5,
+        645.96875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "anime-minimal",
+      "open": true,
+      "rect": [
+        272.5,
+        154.015625,
+        992.5,
+        645.96875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "ios-glass",
+      "open": true,
+      "rect": [
+        260,
+        157.015625,
+        1020,
+        642.96875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "ios-glass",
+      "open": true,
+      "rect": [
+        260,
+        157.015625,
+        1020,
+        642.96875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "ios-glass",
+      "open": true,
+      "rect": [
+        260,
+        157.015625,
+        1020,
+        642.96875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "japan-tech",
+      "open": true,
+      "rect": [
+        267.5,
+        153.765625,
+        997.5,
+        646.21875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "japan-tech",
+      "open": true,
+      "rect": [
+        267.5,
+        153.765625,
+        997.5,
+        646.21875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "japan-tech",
+      "open": true,
+      "rect": [
+        267.5,
+        153.765625,
+        997.5,
+        646.21875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "anime-future",
+      "open": true,
+      "rect": [
+        275,
+        157.515625,
+        1005,
+        642.46875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "anime-future",
+      "open": true,
+      "rect": [
+        275,
+        157.515625,
+        1005,
+        642.46875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "anime-future",
+      "open": true,
+      "rect": [
+        275,
+        157.515625,
+        1005,
+        642.46875
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "apple-minimal",
+      "open": true,
+      "rect": [
+        117.5,
+        114.515625,
+        1147.5,
+        685.484375
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "apple-minimal",
+      "open": true,
+      "rect": [
+        117.5,
+        114.515625,
+        1147.5,
+        685.484375
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "apple-minimal",
+      "open": true,
+      "rect": [
+        117.5,
+        114.515625,
+        1147.5,
+        685.484375
+      ],
+      "size": [
+        1280,
+        800
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "anime-minimal",
+      "open": true,
+      "rect": [
+        315.5,
+        138.015625,
+        1035.5,
+        629.96875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "anime-minimal",
+      "open": true,
+      "rect": [
+        315.5,
+        138.015625,
+        1035.5,
+        629.96875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "anime-minimal",
+      "open": true,
+      "rect": [
+        315.5,
+        138.015625,
+        1035.5,
+        629.96875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "ios-glass",
+      "open": true,
+      "rect": [
+        303,
+        141.015625,
+        1063,
+        626.96875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "ios-glass",
+      "open": true,
+      "rect": [
+        303,
+        141.015625,
+        1063,
+        626.96875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "ios-glass",
+      "open": true,
+      "rect": [
+        303,
+        141.015625,
+        1063,
+        626.96875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "japan-tech",
+      "open": true,
+      "rect": [
+        310.5,
+        137.765625,
+        1040.5,
+        630.21875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "japan-tech",
+      "open": true,
+      "rect": [
+        310.5,
+        137.765625,
+        1040.5,
+        630.21875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "japan-tech",
+      "open": true,
+      "rect": [
+        310.5,
+        137.765625,
+        1040.5,
+        630.21875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "anime-future",
+      "open": true,
+      "rect": [
+        318,
+        141.515625,
+        1048,
+        626.46875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "anime-future",
+      "open": true,
+      "rect": [
+        318,
+        141.515625,
+        1048,
+        626.46875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "anime-future",
+      "open": true,
+      "rect": [
+        318,
+        141.515625,
+        1048,
+        626.46875
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "apple-minimal",
+      "open": true,
+      "rect": [
+        160.5,
+        98.515625,
+        1190.5,
+        669.484375
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "apple-minimal",
+      "open": true,
+      "rect": [
+        160.5,
+        98.515625,
+        1190.5,
+        669.484375
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "apple-minimal",
+      "open": true,
+      "rect": [
+        160.5,
+        98.515625,
+        1190.5,
+        669.484375
+      ],
+      "size": [
+        1366,
+        768
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "anime-minimal",
+      "open": true,
+      "rect": [
+        592.5,
+        294.015625,
+        1312.5,
+        785.96875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "anime-minimal",
+      "open": true,
+      "rect": [
+        592.5,
+        294.015625,
+        1312.5,
+        785.96875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "anime-minimal",
+      "open": true,
+      "rect": [
+        592.5,
+        294.015625,
+        1312.5,
+        785.96875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "ios-glass",
+      "open": true,
+      "rect": [
+        580,
+        297.015625,
+        1340,
+        782.96875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "ios-glass",
+      "open": true,
+      "rect": [
+        580,
+        297.015625,
+        1340,
+        782.96875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "ios-glass",
+      "open": true,
+      "rect": [
+        580,
+        297.015625,
+        1340,
+        782.96875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "japan-tech",
+      "open": true,
+      "rect": [
+        587.5,
+        293.765625,
+        1317.5,
+        786.21875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "japan-tech",
+      "open": true,
+      "rect": [
+        587.5,
+        293.765625,
+        1317.5,
+        786.21875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "japan-tech",
+      "open": true,
+      "rect": [
+        587.5,
+        293.765625,
+        1317.5,
+        786.21875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "anime-future",
+      "open": true,
+      "rect": [
+        595,
+        297.515625,
+        1325,
+        782.46875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "anime-future",
+      "open": true,
+      "rect": [
+        595,
+        297.515625,
+        1325,
+        782.46875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "anime-future",
+      "open": true,
+      "rect": [
+        595,
+        297.515625,
+        1325,
+        782.46875
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "walk",
+      "name": "apple-minimal",
+      "open": true,
+      "rect": [
+        437.5,
+        254.515625,
+        1467.5,
+        825.484375
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "book",
+      "name": "apple-minimal",
+      "open": true,
+      "rect": [
+        437.5,
+        254.515625,
+        1467.5,
+        825.484375
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    },
+    {
+      "clipped": false,
+      "id": "tool",
+      "name": "apple-minimal",
+      "open": true,
+      "rect": [
+        437.5,
+        254.515625,
+        1467.5,
+        825.484375
+      ],
+      "size": [
+        1920,
+        1080
+      ],
+      "focusReturned": true
+    }
+  ]
+}

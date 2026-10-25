@@ -1,0 +1,32 @@
+[
+  {
+    "skin": "anime-glass",
+    "color": "dark",
+    "reduced": true
+  },
+  {
+    "skin": "future-glass",
+    "color": "dark",
+    "reduced": true
+  },
+  {
+    "skin": "anime-future",
+    "color": "dark",
+    "reduced": true
+  },
+  {
+    "skin": "anime",
+    "color": "dark",
+    "reduced": true
+  },
+  {
+    "skin": "future",
+    "color": "dark",
+    "reduced": true
+  },
+  {
+    "skin": "glass",
+    "color": "dark",
+    "reduced": true
+  }
+]
